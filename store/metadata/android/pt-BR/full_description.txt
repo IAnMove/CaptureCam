@@ -1,0 +1,32 @@
+CaptureCam é um gravador de tela simples e gratuito, sem anúncios, sem contas e sem acesso à internet. Suas gravações nunca saem do seu celular.
+
+GRAVE O QUE QUISER
+• Grave a tela inteira ou apenas um app
+• Pause e retome quando quiser
+• Contagem regressiva opcional de 3, 2, 1 na tela, para você se preparar
+• Bloco nas Configurações rápidas para iniciar e parar sem abrir o app
+• Controles direto na notificação
+
+SEUS VÍDEOS, DO SEU JEITO
+• Escolha a resolução (até o tamanho nativo da sua tela), os quadros por segundo e a qualidade
+• Orientação retrato, paisagem ou automática
+• Grava o som dos apps (ativado por padrão) e, opcionalmente, o microfone
+• Salvos como arquivos MP4 padrão em Filmes ou Downloads, prontos para compartilhar
+
+GALERIA INTEGRADA
+• Veja suas gravações recentes em uma grade limpa
+• Visualize-as dentro do app
+• Compartilhe, abra em outro app ou exclua com um toque
+
+PRIVADO POR NATUREZA
+• Sem anúncios e sem rastreadores
+• O app nem tem a permissão de internet, então não consegue enviar nada para lugar nenhum
+• Gratuito e de código aberto
+
+BOM SABER
+• Requer Android 11 ou mais recente
+• O som dos apps depende de cada app: apps que bloqueiam a captura de áudio e conteúdo protegido são gravados sem som
+• Apps que bloqueiam a captura de tela (alguns apps bancários ou de vídeo) aparecerão pretos
+• A permissão opcional “Exibir sobre outros apps” só é usada para mostrar a contagem regressiva na tela
+
+Dúvidas ou ideias? Encontre o código-fonte e os dados de contato dentro do app, em “Sobre o CaptureCam”.

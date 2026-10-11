@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">CaptureCam</string>
+
+    <!-- Main screen -->
+    <string name="tagline">Record your screen. No ads.</string>
+    <string name="state_idle">Ready to record</string>
+    <string name="state_countdown">Starting…</string>
+    <string name="state_recording">Recording</string>
+    <string name="state_paused">Paused</string>
+    <string name="btn_record">Record</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="no_recordings">No recordings yet</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="setting_resolution">Resolution</string>
+    <string name="setting_fps">Frames per second</string>
+    <string name="setting_quality">Quality</string>
+    <string name="setting_orientation">Orientation</string>
+    <string name="setting_mic">Record microphone</string>
+    <string name="setting_app_audio">Record app sound</string>
+    <string name="setting_app_audio_hint">Android requires the microphone permission for this, but the microphone is not used.</string>
+    <string name="setting_countdown">3-second countdown</string>
+
+    <string-array name="resolution_labels">
+        <item>Original</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>Automatic</item>
+        <item>Portrait</item>
+        <item>Landscape</item>
+    </string-array>
+
+    <!-- Notifications -->
+    <string name="channel_recording">Recording in progress</string>
+    <string name="channel_saved">Saved recordings</string>
+    <string name="notif_countdown_title">Starting in %1$d…</string>
+    <string name="notif_recording_title">Recording screen</string>
+    <string name="notif_paused_title">Recording paused</string>
+    <string name="notif_saved_title">Recording saved</string>
+    <string name="notif_saved_text">Tap to watch</string>
+    <string name="notif_nothing_captured">The recording was too short</string>
+
+    <!-- Messages -->
+    <string name="toast_no_consent">Screen capture permission is needed to record</string>
+    <string name="toast_mic_denied">No microphone permission: recording without audio</string>
+    <string name="toast_error">Couldn\'t start recording</string>
+    <string name="toast_no_player">No app found to play the video</string>
+
+    <!-- History and player -->
+    <string name="recents_title">Recent</string>
+    <string name="btn_all">See all</string>
+    <string name="history_title">Recordings</string>
+    <string name="btn_share">Share</string>
+    <string name="btn_open_with">Open with…</string>
+    <string name="btn_delete">Delete</string>
+    <string name="cd_back">Back</string>
+    <string name="share_chooser">Share recording</string>
+    <string name="delete_title">Delete this recording?</string>
+    <string name="delete_message">This can\'t be undone.</string>
+    <string name="toast_deleted">Recording deleted</string>
+    <string name="toast_delete_failed">Couldn\'t delete</string>
+    <string name="toast_play_failed">This video can\'t be played</string>
+
+    <!-- Folder and summary -->
+    <string name="setting_storage">Save to</string>
+    <string-array name="storage_labels">
+        <item>Movies</item>
+        <item>Downloads</item>
+    </string-array>
+    <string name="saved_in_movies">Saved to Movies/CaptureCam</string>
+    <string name="saved_in_downloads">Saved to Downloads/CaptureCam</string>
+    <string name="summary_resolution">Will record at %1$d × %2$d</string>
+
+    <!-- On-screen countdown permission -->
+    <string name="overlay_title">On-screen countdown</string>
+    <string name="overlay_message">To show the 3, 2, 1 over the app you\'re about to record, CaptureCam needs the “Display over other apps” permission. Without it, the countdown only appears in the notification.</string>
+    <string name="overlay_grant">Grant permission</string>
+    <string name="overlay_skip">Not now</string>
+
+    <!-- About -->
+    <string name="about_open">About CaptureCam</string>
+    <string name="about_title">About</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_description">A free screen recorder with no ads, no accounts and no internet access. Your recordings never leave your phone.</string>
+    <string name="about_source">Source code</string>
+    <string name="about_more">More apps by the author</string>
+    <string name="about_privacy">Privacy policy</string>
+    <string name="about_x">Follow on X</string>
+    <string name="toast_no_browser">No app can open this link</string>
+
+    <string name="tile_label">Record screen</string>
+    <string name="tile_stop">Stop</string>
+</resources>

@@ -1,0 +1,32 @@
+CaptureCam to prosty, bezpłatny rejestrator ekranu bez reklam, bez kont i bez dostępu do internetu. Twoje nagrania nigdy nie opuszczają telefonu.
+
+NAGRYWAJ, CO CHCESZ
+• Nagrywaj cały ekran albo tylko jedną aplikację
+• Wstrzymuj i wznawiaj nagrywanie w dowolnym momencie
+• Opcjonalne odliczanie 3, 2, 1 na ekranie, które daje czas na przygotowanie
+• Kafelek w Szybkich ustawieniach – start i stop bez otwierania aplikacji
+• Przyciski sterowania bezpośrednio w powiadomieniu
+
+TWOJE FILMY PO TWOJEMU
+• Wybierz rozdzielczość (do natywnego rozmiaru ekranu), liczbę klatek na sekundę i jakość
+• Orientacja pionowa, pozioma lub automatyczna
+• Nagrywa dźwięk aplikacji (domyślnie włączone) i opcjonalnie mikrofon
+• Zapis w standardowych plikach MP4 w folderze Filmy lub Pobrane, gotowych do udostępnienia
+
+WBUDOWANA GALERIA
+• Przeglądaj ostatnie nagrania w przejrzystej siatce
+• Podglądaj je w aplikacji
+• Udostępniaj, otwieraj w innej aplikacji lub usuwaj jednym dotknięciem
+
+PRYWATNOŚĆ OD PODSTAW
+• Bez reklam i bez modułów śledzących
+• Aplikacja nie ma nawet uprawnienia do internetu, więc nie może niczego nigdzie wysłać
+• Bezpłatna i o otwartym kodzie źródłowym
+
+WARTO WIEDZIEĆ
+• Wymaga systemu Android 11 lub nowszego
+• Dźwięk aplikacji zależy od danej aplikacji: aplikacje blokujące przechwytywanie dźwięku i treści chronione są nagrywane bez dźwięku
+• Aplikacje blokujące przechwytywanie ekranu (np. niektóre bankowe lub wideo) będą widoczne jako czarny ekran
+• Opcjonalne uprawnienie „Wyświetlanie nad innymi aplikacjami” służy wyłącznie do pokazywania odliczania na ekranie
+
+Pytania lub pomysły? Kod źródłowy i dane kontaktowe znajdziesz w aplikacji, w sekcji „O aplikacji CaptureCam”.

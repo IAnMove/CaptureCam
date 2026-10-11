@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Layar utama -->
+    <string name="tagline">Rekam layar. Tanpa iklan.</string>
+    <string name="state_idle">Siap merekam</string>
+    <string name="state_countdown">Memulai…</string>
+    <string name="state_recording">Merekam</string>
+    <string name="state_paused">Dijeda</string>
+    <string name="btn_record">Rekam</string>
+    <string name="btn_stop">Berhenti</string>
+    <string name="btn_pause">Jeda</string>
+    <string name="btn_resume">Lanjutkan</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="no_recordings">Belum ada rekaman</string>
+
+    <!-- Setelan -->
+    <string name="settings_title">Setelan</string>
+    <string name="setting_resolution">Resolusi</string>
+    <string name="setting_fps">Frame per detik</string>
+    <string name="setting_quality">Kualitas</string>
+    <string name="setting_orientation">Orientasi</string>
+    <string name="setting_mic">Rekam mikrofon</string>
+    <string name="setting_app_audio">Rekam suara aplikasi</string>
+    <string name="setting_app_audio_hint">Android meminta izin mikrofon untuk ini, tetapi mikrofon tidak digunakan.</string>
+    <string name="setting_countdown">Hitung mundur 3 detik</string>
+
+    <string-array name="resolution_labels">
+        <item>Asli</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>Rendah</item>
+        <item>Sedang</item>
+        <item>Tinggi</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>Otomatis</item>
+        <item>Potret</item>
+        <item>Lanskap</item>
+    </string-array>
+
+    <!-- Notifikasi -->
+    <string name="channel_recording">Perekaman berlangsung</string>
+    <string name="channel_saved">Rekaman tersimpan</string>
+    <string name="notif_countdown_title">Mulai dalam %1$d…</string>
+    <string name="notif_recording_title">Merekam layar</string>
+    <string name="notif_paused_title">Rekaman dijeda</string>
+    <string name="notif_saved_title">Rekaman disimpan</string>
+    <string name="notif_saved_text">Ketuk untuk menonton</string>
+    <string name="notif_nothing_captured">Rekaman terlalu singkat</string>
+
+    <!-- Pesan -->
+    <string name="toast_no_consent">Izin perekaman layar diperlukan untuk merekam</string>
+    <string name="toast_mic_denied">Tidak ada izin mikrofon: merekam tanpa suara</string>
+    <string name="toast_error">Tidak dapat memulai perekaman</string>
+    <string name="toast_no_player">Tidak ada aplikasi untuk memutar video</string>
+
+    <!-- Riwayat dan pemutar -->
+    <string name="recents_title">Terbaru</string>
+    <string name="btn_all">Lihat semua</string>
+    <string name="history_title">Rekaman</string>
+    <string name="btn_share">Bagikan</string>
+    <string name="btn_open_with">Buka dengan…</string>
+    <string name="btn_delete">Hapus</string>
+    <string name="cd_back">Kembali</string>
+    <string name="share_chooser">Bagikan rekaman</string>
+    <string name="delete_title">Hapus rekaman ini?</string>
+    <string name="delete_message">Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="toast_deleted">Rekaman dihapus</string>
+    <string name="toast_delete_failed">Tidak dapat menghapus</string>
+    <string name="toast_play_failed">Video ini tidak dapat diputar</string>
+
+    <!-- Folder dan ringkasan -->
+    <string name="setting_storage">Simpan di</string>
+    <string-array name="storage_labels">
+        <item>Film</item>
+        <item>Download</item>
+    </string-array>
+    <string name="saved_in_movies">Disimpan di Film/CaptureCam</string>
+    <string name="saved_in_downloads">Disimpan di Download/CaptureCam</string>
+    <string name="summary_resolution">Akan merekam dalam %1$d × %2$d</string>
+
+    <!-- Izin hitung mundur di layar -->
+    <string name="overlay_title">Hitung mundur di layar</string>
+    <string name="overlay_message">Agar angka 3, 2, 1 tampil di atas aplikasi yang akan kamu rekam, CaptureCam memerlukan izin “Tampilkan di atas aplikasi lain”. Tanpa izin ini, hitung mundur hanya muncul di notifikasi.</string>
+    <string name="overlay_grant">Berikan izin</string>
+    <string name="overlay_skip">Nanti saja</string>
+
+    <!-- Tentang -->
+    <string name="about_open">Tentang CaptureCam</string>
+    <string name="about_title">Tentang</string>
+    <string name="about_version">Versi %1$s</string>
+    <string name="about_description">Perekam layar gratis tanpa iklan, tanpa akun, dan tanpa akses internet. Rekamanmu tidak pernah keluar dari ponselmu.</string>
+    <string name="about_source">Kode sumber</string>
+    <string name="about_more">Aplikasi lain dari pengembang</string>
+    <string name="about_privacy">Kebijakan privasi</string>
+    <string name="about_x">Ikuti di X</string>
+    <string name="toast_no_browser">Tidak ada aplikasi yang dapat membuka tautan ini</string>
+
+    <string name="tile_label">Rekam layar</string>
+    <string name="tile_stop">Berhenti</string>
+</resources>

@@ -1,0 +1,12 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+# Claves de firma: nunca al repositorio
+keystore.properties
+*.jks
+*.keystore
+# Binarios de publicación: se generan con ./gradlew bundleRelease / assemble*
+store/release/

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- الشاشة الرئيسية -->
+    <string name="tagline">سجّل شاشتك. بلا إعلانات.</string>
+    <string name="state_idle">جاهز للتسجيل</string>
+    <string name="state_countdown">جارٍ البدء…</string>
+    <string name="state_recording">جارٍ التسجيل</string>
+    <string name="state_paused">متوقف مؤقتًا</string>
+    <string name="btn_record">تسجيل</string>
+    <string name="btn_stop">إيقاف</string>
+    <string name="btn_pause">إيقاف مؤقت</string>
+    <string name="btn_resume">استئناف</string>
+    <string name="btn_cancel">إلغاء</string>
+    <string name="no_recordings">لا توجد تسجيلات بعد</string>
+
+    <!-- الإعدادات -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="setting_resolution">الدقة</string>
+    <string name="setting_fps">عدد الإطارات في الثانية</string>
+    <string name="setting_quality">الجودة</string>
+    <string name="setting_orientation">الاتجاه</string>
+    <string name="setting_mic">تسجيل الميكروفون</string>
+    <string name="setting_app_audio">تسجيل صوت التطبيقات</string>
+    <string name="setting_app_audio_hint">يطلب Android إذن الميكروفون لهذا الخيار، لكن الميكروفون لا يُستخدم.</string>
+    <string name="setting_countdown">عدّ تنازلي لمدة 3 ثوانٍ</string>
+
+    <string-array name="resolution_labels">
+        <item>الأصلية</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>منخفضة</item>
+        <item>متوسطة</item>
+        <item>عالية</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>تلقائي</item>
+        <item>عمودي</item>
+        <item>أفقي</item>
+    </string-array>
+
+    <!-- الإشعارات -->
+    <string name="channel_recording">التسجيل الجاري</string>
+    <string name="channel_saved">التسجيلات المحفوظة</string>
+    <string name="notif_countdown_title">البدء خلال %1$d…</string>
+    <string name="notif_recording_title">جارٍ تسجيل الشاشة</string>
+    <string name="notif_paused_title">التسجيل متوقف مؤقتًا</string>
+    <string name="notif_saved_title">تم حفظ التسجيل</string>
+    <string name="notif_saved_text">انقر للمشاهدة</string>
+    <string name="notif_nothing_captured">كان التسجيل قصيرًا جدًا</string>
+
+    <!-- الرسائل -->
+    <string name="toast_no_consent">يلزم إذن التقاط الشاشة لبدء التسجيل</string>
+    <string name="toast_mic_denied">لا يوجد إذن للميكروفون: سيتم التسجيل بدون صوت</string>
+    <string name="toast_error">تعذّر بدء التسجيل</string>
+    <string name="toast_no_player">لم يتم العثور على تطبيق لتشغيل الفيديو</string>
+
+    <!-- السجل والمشغّل -->
+    <string name="recents_title">الأحدث</string>
+    <string name="btn_all">عرض الكل</string>
+    <string name="history_title">التسجيلات</string>
+    <string name="btn_share">مشاركة</string>
+    <string name="btn_open_with">فتح باستخدام…</string>
+    <string name="btn_delete">حذف</string>
+    <string name="cd_back">رجوع</string>
+    <string name="share_chooser">مشاركة التسجيل</string>
+    <string name="delete_title">هل تريد حذف هذا التسجيل؟</string>
+    <string name="delete_message">لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="toast_deleted">تم حذف التسجيل</string>
+    <string name="toast_delete_failed">تعذّر الحذف</string>
+    <string name="toast_play_failed">لا يمكن تشغيل هذا الفيديو</string>
+
+    <!-- المجلد والملخص -->
+    <string name="setting_storage">الحفظ في</string>
+    <string-array name="storage_labels">
+        <item>الأفلام</item>
+        <item>التنزيلات</item>
+    </string-array>
+    <string name="saved_in_movies">تم الحفظ في الأفلام/CaptureCam</string>
+    <string name="saved_in_downloads">تم الحفظ في التنزيلات/CaptureCam</string>
+    <string name="summary_resolution">سيتم التسجيل بدقة ⁦%1$d × %2$d⁩</string>
+
+    <!-- إذن العدّ التنازلي على الشاشة -->
+    <string name="overlay_title">العدّ التنازلي على الشاشة</string>
+    <string name="overlay_message">لإظهار العدّ 3، 2، 1 فوق التطبيق الذي ستسجّله، يحتاج CaptureCam إلى إذن «العرض فوق التطبيقات الأخرى». بدون هذا الإذن، يظهر العدّ التنازلي في الإشعار فقط.</string>
+    <string name="overlay_grant">منح الإذن</string>
+    <string name="overlay_skip">ليس الآن</string>
+
+    <!-- حول -->
+    <string name="about_open">حول CaptureCam</string>
+    <string name="about_title">حول</string>
+    <string name="about_version">الإصدار %1$s</string>
+    <string name="about_description">مسجّل شاشة مجاني بلا إعلانات ولا حسابات ولا وصول إلى الإنترنت. تسجيلاتك لا تغادر هاتفك أبدًا.</string>
+    <string name="about_source">الشيفرة المصدرية</string>
+    <string name="about_more">المزيد من التطبيقات من المطوّر</string>
+    <string name="about_privacy">سياسة الخصوصية</string>
+    <string name="about_x">تابعنا على X</string>
+    <string name="toast_no_browser">لا يوجد تطبيق يمكنه فتح هذا الرابط</string>
+
+    <string name="tile_label">تسجيل الشاشة</string>
+    <string name="tile_stop">إيقاف</string>
+</resources>

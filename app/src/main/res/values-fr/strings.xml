@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Écran principal -->
+    <string name="tagline">Enregistrez votre écran. Sans pub.</string>
+    <string name="state_idle">Prêt à enregistrer</string>
+    <string name="state_countdown">Démarrage…</string>
+    <string name="state_recording">Enregistrement</string>
+    <string name="state_paused">En pause</string>
+    <string name="btn_record">Enregistrer</string>
+    <string name="btn_stop">Arrêter</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Reprendre</string>
+    <string name="btn_cancel">Annuler</string>
+    <string name="no_recordings">Aucun enregistrement pour l\'instant</string>
+
+    <!-- Paramètres -->
+    <string name="settings_title">Paramètres</string>
+    <string name="setting_resolution">Résolution</string>
+    <string name="setting_fps">Images par seconde</string>
+    <string name="setting_quality">Qualité</string>
+    <string name="setting_orientation">Orientation</string>
+    <string name="setting_mic">Enregistrer le micro</string>
+    <string name="setting_app_audio">Enregistrer le son des applis</string>
+    <string name="setting_app_audio_hint">Android demande l\'autorisation du micro pour cela, mais le micro n\'est pas utilisé.</string>
+    <string name="setting_countdown">Compte à rebours de 3 s</string>
+
+    <string-array name="resolution_labels">
+        <item>Originale</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>Basse</item>
+        <item>Moyenne</item>
+        <item>Élevée</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>Automatique</item>
+        <item>Portrait</item>
+        <item>Paysage</item>
+    </string-array>
+
+    <!-- Notifications -->
+    <string name="channel_recording">Enregistrement en cours</string>
+    <string name="channel_saved">Enregistrements sauvegardés</string>
+    <string name="notif_countdown_title">Démarrage dans %1$d…</string>
+    <string name="notif_recording_title">Enregistrement de l\'écran</string>
+    <string name="notif_paused_title">Enregistrement en pause</string>
+    <string name="notif_saved_title">Enregistrement sauvegardé</string>
+    <string name="notif_saved_text">Appuyez pour regarder</string>
+    <string name="notif_nothing_captured">L\'enregistrement était trop court</string>
+
+    <!-- Messages -->
+    <string name="toast_no_consent">L\'autorisation de capture d\'écran est nécessaire pour enregistrer</string>
+    <string name="toast_mic_denied">Micro non autorisé : enregistrement sans audio</string>
+    <string name="toast_error">Impossible de démarrer l\'enregistrement</string>
+    <string name="toast_no_player">Aucune appli trouvée pour lire la vidéo</string>
+
+    <!-- Historique et lecteur -->
+    <string name="recents_title">Récents</string>
+    <string name="btn_all">Tout voir</string>
+    <string name="history_title">Enregistrements</string>
+    <string name="btn_share">Partager</string>
+    <string name="btn_open_with">Ouvrir avec…</string>
+    <string name="btn_delete">Supprimer</string>
+    <string name="cd_back">Retour</string>
+    <string name="share_chooser">Partager l\'enregistrement</string>
+    <string name="delete_title">Supprimer cet enregistrement ?</string>
+    <string name="delete_message">Cette action est irréversible.</string>
+    <string name="toast_deleted">Enregistrement supprimé</string>
+    <string name="toast_delete_failed">Impossible de supprimer</string>
+    <string name="toast_play_failed">Impossible de lire cette vidéo</string>
+
+    <!-- Dossier et résumé -->
+    <string name="setting_storage">Enregistrer dans</string>
+    <string-array name="storage_labels">
+        <item>Films</item>
+        <item>Téléchargements</item>
+    </string-array>
+    <string name="saved_in_movies">Enregistré dans Films/CaptureCam</string>
+    <string name="saved_in_downloads">Enregistré dans Téléchargements/CaptureCam</string>
+    <string name="summary_resolution">Enregistrement en %1$d × %2$d</string>
+
+    <!-- Autorisation du compte à rebours -->
+    <string name="overlay_title">Compte à rebours à l\'écran</string>
+    <string name="overlay_message">Pour afficher le 3, 2, 1 par-dessus l\'appli que vous allez enregistrer, CaptureCam a besoin de l\'autorisation « Afficher par-dessus d\'autres applis ». Sans elle, le compte à rebours n\'apparaît que dans la notification.</string>
+    <string name="overlay_grant">Accorder l\'autorisation</string>
+    <string name="overlay_skip">Pas maintenant</string>
+
+    <!-- À propos -->
+    <string name="about_open">À propos de CaptureCam</string>
+    <string name="about_title">À propos</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_description">Un enregistreur d\'écran gratuit, sans publicité, sans compte et sans accès à internet. Vos enregistrements ne quittent jamais votre téléphone.</string>
+    <string name="about_source">Code source</string>
+    <string name="about_more">Autres applis du développeur</string>
+    <string name="about_privacy">Politique de confidentialité</string>
+    <string name="about_x">Suivre sur X</string>
+    <string name="toast_no_browser">Aucune appli ne peut ouvrir ce lien</string>
+
+    <string name="tile_label">Enregistrer l\'écran</string>
+    <string name="tile_stop">Arrêter</string>
+</resources>

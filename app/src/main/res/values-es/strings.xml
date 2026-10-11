@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pantalla principal -->
+    <string name="tagline">Graba la pantalla. Sin anuncios.</string>
+    <string name="state_idle">Listo para grabar</string>
+    <string name="state_countdown">Empezando…</string>
+    <string name="state_recording">Grabando</string>
+    <string name="state_paused">En pausa</string>
+    <string name="btn_record">Grabar</string>
+    <string name="btn_stop">Detener</string>
+    <string name="btn_pause">Pausar</string>
+    <string name="btn_resume">Reanudar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="no_recordings">Todavía no hay grabaciones</string>
+
+    <!-- Ajustes -->
+    <string name="settings_title">Ajustes</string>
+    <string name="setting_resolution">Resolución</string>
+    <string name="setting_fps">Fotogramas por segundo</string>
+    <string name="setting_quality">Calidad</string>
+    <string name="setting_orientation">Orientación</string>
+    <string name="setting_mic">Grabar micrófono</string>
+    <string name="setting_app_audio">Grabar sonido de las apps</string>
+    <string name="setting_app_audio_hint">Android pide el permiso del micrófono para esto, pero no se usa el micrófono.</string>
+    <string name="setting_countdown">Cuenta atrás de 3 s</string>
+
+    <string-array name="resolution_labels">
+        <item>Original</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>Baja</item>
+        <item>Media</item>
+        <item>Alta</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>Automática</item>
+        <item>Vertical</item>
+        <item>Horizontal</item>
+    </string-array>
+
+    <!-- Notificaciones -->
+    <string name="channel_recording">Grabación en curso</string>
+    <string name="channel_saved">Grabaciones guardadas</string>
+    <string name="notif_countdown_title">Empieza en %1$d…</string>
+    <string name="notif_recording_title">Grabando pantalla</string>
+    <string name="notif_paused_title">Grabación en pausa</string>
+    <string name="notif_saved_title">Grabación guardada</string>
+    <string name="notif_saved_text">Toca para verla</string>
+    <string name="notif_nothing_captured">La grabación fue demasiado corta</string>
+
+    <!-- Avisos -->
+    <string name="toast_no_consent">Sin permiso de captura no se puede grabar</string>
+    <string name="toast_mic_denied">Sin permiso de micrófono: se grabará sin audio</string>
+    <string name="toast_error">No se pudo iniciar la grabación</string>
+    <string name="toast_no_player">No hay ninguna app para reproducir el vídeo</string>
+
+    <!-- Histórico y reproductor -->
+    <string name="recents_title">Recientes</string>
+    <string name="btn_all">Ver todas</string>
+    <string name="history_title">Grabaciones</string>
+    <string name="btn_share">Compartir</string>
+    <string name="btn_open_with">Abrir con…</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="cd_back">Atrás</string>
+    <string name="share_chooser">Compartir grabación</string>
+    <string name="delete_title">¿Eliminar esta grabación?</string>
+    <string name="delete_message">No se puede deshacer.</string>
+    <string name="toast_deleted">Grabación eliminada</string>
+    <string name="toast_delete_failed">No se pudo eliminar</string>
+    <string name="toast_play_failed">No se puede reproducir este vídeo</string>
+
+    <!-- Carpeta y resumen -->
+    <string name="setting_storage">Guardar en</string>
+    <string-array name="storage_labels">
+        <item>Películas</item>
+        <item>Descargas</item>
+    </string-array>
+    <string name="saved_in_movies">Se guardan en Películas/CaptureCam</string>
+    <string name="saved_in_downloads">Se guardan en Descargas/CaptureCam</string>
+    <string name="summary_resolution">Se grabará a %1$d × %2$d</string>
+
+    <!-- Permiso de cuenta atrás en pantalla -->
+    <string name="overlay_title">Cuenta atrás en pantalla</string>
+    <string name="overlay_message">Para mostrar el 3, 2, 1 sobre la app que vas a grabar, CaptureCam necesita el permiso «Aparecer encima». Sin él, la cuenta atrás solo se ve en la notificación.</string>
+    <string name="overlay_grant">Conceder permiso</string>
+    <string name="overlay_skip">Ahora no</string>
+
+    <!-- Acerca de -->
+    <string name="about_open">Acerca de CaptureCam</string>
+    <string name="about_title">Acerca de</string>
+    <string name="about_version">Versión %1$s</string>
+    <string name="about_description">Un grabador de pantalla gratuito, sin anuncios, sin cuentas y sin acceso a internet. Tus grabaciones no salen de tu móvil.</string>
+    <string name="about_source">Código fuente</string>
+    <string name="about_more">Más apps del autor</string>
+    <string name="about_privacy">Política de privacidad</string>
+    <string name="about_x">Sígueme en X</string>
+    <string name="toast_no_browser">Ninguna app puede abrir este enlace</string>
+
+    <string name="tile_label">Grabar pantalla</string>
+    <string name="tile_stop">Detener</string>
+</resources>

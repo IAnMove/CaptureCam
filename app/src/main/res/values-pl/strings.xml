@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ekran główny -->
+    <string name="tagline">Nagrywaj ekran. Bez reklam.</string>
+    <string name="state_idle">Gotowe do nagrywania</string>
+    <string name="state_countdown">Zaczynamy…</string>
+    <string name="state_recording">Nagrywanie</string>
+    <string name="state_paused">Wstrzymano</string>
+    <string name="btn_record">Nagraj</string>
+    <string name="btn_stop">Zatrzymaj</string>
+    <string name="btn_pause">Wstrzymaj</string>
+    <string name="btn_resume">Wznów</string>
+    <string name="btn_cancel">Anuluj</string>
+    <string name="no_recordings">Brak nagrań</string>
+
+    <!-- Ustawienia -->
+    <string name="settings_title">Ustawienia</string>
+    <string name="setting_resolution">Rozdzielczość</string>
+    <string name="setting_fps">Klatki na sekundę</string>
+    <string name="setting_quality">Jakość</string>
+    <string name="setting_orientation">Orientacja</string>
+    <string name="setting_mic">Nagrywaj mikrofon</string>
+    <string name="setting_app_audio">Nagrywaj dźwięk aplikacji</string>
+    <string name="setting_app_audio_hint">Android wymaga do tego uprawnienia do mikrofonu, ale mikrofon nie jest używany.</string>
+    <string name="setting_countdown">3-sekundowe odliczanie</string>
+
+    <string-array name="resolution_labels">
+        <item>Oryginalna</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>Niska</item>
+        <item>Średnia</item>
+        <item>Wysoka</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>Automatyczna</item>
+        <item>Pionowa</item>
+        <item>Pozioma</item>
+    </string-array>
+
+    <!-- Powiadomienia -->
+    <string name="channel_recording">Trwające nagrywanie</string>
+    <string name="channel_saved">Zapisane nagrania</string>
+    <string name="notif_countdown_title">Start za %1$d…</string>
+    <string name="notif_recording_title">Nagrywanie ekranu</string>
+    <string name="notif_paused_title">Nagrywanie wstrzymane</string>
+    <string name="notif_saved_title">Nagranie zapisane</string>
+    <string name="notif_saved_text">Dotknij, aby obejrzeć</string>
+    <string name="notif_nothing_captured">Nagranie było zbyt krótkie</string>
+
+    <!-- Komunikaty -->
+    <string name="toast_no_consent">Do nagrywania potrzebne jest uprawnienie do przechwytywania ekranu</string>
+    <string name="toast_mic_denied">Brak uprawnienia do mikrofonu: nagrywanie bez dźwięku</string>
+    <string name="toast_error">Nie udało się rozpocząć nagrywania</string>
+    <string name="toast_no_player">Nie znaleziono aplikacji do odtworzenia filmu</string>
+
+    <!-- Historia i odtwarzacz -->
+    <string name="recents_title">Ostatnie</string>
+    <string name="btn_all">Zobacz wszystkie</string>
+    <string name="history_title">Nagrania</string>
+    <string name="btn_share">Udostępnij</string>
+    <string name="btn_open_with">Otwórz za pomocą…</string>
+    <string name="btn_delete">Usuń</string>
+    <string name="cd_back">Wstecz</string>
+    <string name="share_chooser">Udostępnij nagranie</string>
+    <string name="delete_title">Usunąć to nagranie?</string>
+    <string name="delete_message">Tej operacji nie można cofnąć.</string>
+    <string name="toast_deleted">Nagranie usunięte</string>
+    <string name="toast_delete_failed">Nie udało się usunąć</string>
+    <string name="toast_play_failed">Nie można odtworzyć tego filmu</string>
+
+    <!-- Folder i podsumowanie -->
+    <string name="setting_storage">Zapisuj w</string>
+    <string-array name="storage_labels">
+        <item>Filmy</item>
+        <item>Pobrane</item>
+    </string-array>
+    <string name="saved_in_movies">Zapisywane w folderze Filmy/CaptureCam</string>
+    <string name="saved_in_downloads">Zapisywane w folderze Pobrane/CaptureCam</string>
+    <string name="summary_resolution">Nagranie w rozdzielczości %1$d × %2$d</string>
+
+    <!-- Uprawnienie do odliczania na ekranie -->
+    <string name="overlay_title">Odliczanie na ekranie</string>
+    <string name="overlay_message">Aby pokazać odliczanie 3, 2, 1 nad aplikacją, którą zamierzasz nagrywać, CaptureCam potrzebuje uprawnienia „Wyświetlanie nad innymi aplikacjami”. Bez niego odliczanie będzie widoczne tylko w powiadomieniu.</string>
+    <string name="overlay_grant">Przyznaj uprawnienie</string>
+    <string name="overlay_skip">Nie teraz</string>
+
+    <!-- O aplikacji -->
+    <string name="about_open">O aplikacji CaptureCam</string>
+    <string name="about_title">O aplikacji</string>
+    <string name="about_version">Wersja %1$s</string>
+    <string name="about_description">Bezpłatna aplikacja do nagrywania ekranu – bez reklam, bez kont i bez dostępu do internetu. Twoje nagrania nigdy nie opuszczają telefonu.</string>
+    <string name="about_source">Kod źródłowy</string>
+    <string name="about_more">Więcej aplikacji autora</string>
+    <string name="about_privacy">Polityka prywatności</string>
+    <string name="about_x">Obserwuj na X</string>
+    <string name="toast_no_browser">Żadna aplikacja nie może otworzyć tego linku</string>
+
+    <string name="tile_label">Nagraj ekran</string>
+    <string name="tile_stop">Zatrzymaj</string>
+</resources>

@@ -1,0 +1,32 @@
+CaptureCam è un registratore dello schermo semplice e gratuito, senza pubblicità, senza account e senza accesso a internet. Le tue registrazioni non lasciano mai il telefono.
+
+REGISTRA CIÒ CHE VUOI
+• Registra l'intero schermo o solo un'app
+• Metti in pausa e riprendi quando vuoi
+• Conto alla rovescia 3-2-1 sullo schermo (facoltativo), per prepararti
+• Riquadro nelle Impostazioni rapide per avviare e fermare la registrazione senza aprire l'app
+• Controlli direttamente nella notifica
+
+I TUOI VIDEO, A MODO TUO
+• Scegli la risoluzione (fino alle dimensioni native dello schermo), i fotogrammi al secondo e la qualità
+• Orientamento verticale, orizzontale o automatico
+• Registra l'audio delle app (attivo per impostazione predefinita) e, se vuoi, il microfono
+• Salvati come file MP4 standard in Film o Download, pronti da condividere
+
+GALLERIA INTEGRATA
+• Sfoglia le registrazioni recenti in una griglia ordinata
+• Guardane l'anteprima direttamente nell'app
+• Condividi, apri con un'altra app o elimina con un tocco
+
+PRIVACY FIN DALL'INIZIO
+• Nessuna pubblicità e nessun tracker
+• L'app non ha nemmeno il permesso di accedere a internet, quindi non può inviare nulla da nessuna parte
+• Gratuita e open source
+
+DA SAPERE
+• Richiede Android 11 o versioni successive
+• L'audio delle app dipende da ciascuna app: quelle che bloccano l'acquisizione audio e i contenuti protetti vengono registrati senza audio
+• Le app che bloccano l'acquisizione dello schermo (alcune app bancarie o video) appariranno nere
+• L'autorizzazione facoltativa «Mostra sopra altre app» serve solo per mostrare il conto alla rovescia sullo schermo
+
+Domande o idee? Trovi il codice sorgente e i contatti nell'app, in «Informazioni su CaptureCam».

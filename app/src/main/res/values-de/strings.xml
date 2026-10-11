@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hauptbildschirm -->
+    <string name="tagline">Bildschirm aufnehmen. Ohne Werbung.</string>
+    <string name="state_idle">Bereit zur Aufnahme</string>
+    <string name="state_countdown">Startet…</string>
+    <string name="state_recording">Aufnahme läuft</string>
+    <string name="state_paused">Pausiert</string>
+    <string name="btn_record">Aufnehmen</string>
+    <string name="btn_stop">Stopp</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Fortsetzen</string>
+    <string name="btn_cancel">Abbrechen</string>
+    <string name="no_recordings">Noch keine Aufnahmen</string>
+
+    <!-- Einstellungen -->
+    <string name="settings_title">Einstellungen</string>
+    <string name="setting_resolution">Auflösung</string>
+    <string name="setting_fps">Bilder pro Sekunde</string>
+    <string name="setting_quality">Qualität</string>
+    <string name="setting_orientation">Ausrichtung</string>
+    <string name="setting_mic">Mikrofon aufnehmen</string>
+    <string name="setting_app_audio">App-Ton aufnehmen</string>
+    <string name="setting_app_audio_hint">Android verlangt dafür die Mikrofonberechtigung, das Mikrofon selbst wird aber nicht verwendet.</string>
+    <string name="setting_countdown">3-Sekunden-Countdown</string>
+
+    <string-array name="resolution_labels">
+        <item>Original</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>Niedrig</item>
+        <item>Mittel</item>
+        <item>Hoch</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>Automatisch</item>
+        <item>Hochformat</item>
+        <item>Querformat</item>
+    </string-array>
+
+    <!-- Benachrichtigungen -->
+    <string name="channel_recording">Laufende Aufnahme</string>
+    <string name="channel_saved">Gespeicherte Aufnahmen</string>
+    <string name="notif_countdown_title">Start in %1$d…</string>
+    <string name="notif_recording_title">Bildschirm wird aufgenommen</string>
+    <string name="notif_paused_title">Aufnahme pausiert</string>
+    <string name="notif_saved_title">Aufnahme gespeichert</string>
+    <string name="notif_saved_text">Zum Ansehen tippen</string>
+    <string name="notif_nothing_captured">Die Aufnahme war zu kurz</string>
+
+    <!-- Hinweise -->
+    <string name="toast_no_consent">Zum Aufnehmen wird die Berechtigung zur Bildschirmaufnahme benötigt</string>
+    <string name="toast_mic_denied">Keine Mikrofonberechtigung: Aufnahme ohne Ton</string>
+    <string name="toast_error">Aufnahme konnte nicht gestartet werden</string>
+    <string name="toast_no_player">Keine App zum Abspielen des Videos gefunden</string>
+
+    <!-- Verlauf und Player -->
+    <string name="recents_title">Zuletzt</string>
+    <string name="btn_all">Alle ansehen</string>
+    <string name="history_title">Aufnahmen</string>
+    <string name="btn_share">Teilen</string>
+    <string name="btn_open_with">Öffnen mit…</string>
+    <string name="btn_delete">Löschen</string>
+    <string name="cd_back">Zurück</string>
+    <string name="share_chooser">Aufnahme teilen</string>
+    <string name="delete_title">Diese Aufnahme löschen?</string>
+    <string name="delete_message">Das lässt sich nicht rückgängig machen.</string>
+    <string name="toast_deleted">Aufnahme gelöscht</string>
+    <string name="toast_delete_failed">Löschen nicht möglich</string>
+    <string name="toast_play_failed">Dieses Video kann nicht abgespielt werden</string>
+
+    <!-- Ordner und Zusammenfassung -->
+    <string name="setting_storage">Speichern in</string>
+    <string-array name="storage_labels">
+        <item>Filme</item>
+        <item>Downloads</item>
+    </string-array>
+    <string name="saved_in_movies">Gespeichert unter Filme/CaptureCam</string>
+    <string name="saved_in_downloads">Gespeichert unter Downloads/CaptureCam</string>
+    <string name="summary_resolution">Aufnahme in %1$d × %2$d</string>
+
+    <!-- Berechtigung für den Countdown auf dem Bildschirm -->
+    <string name="overlay_title">Countdown auf dem Bildschirm</string>
+    <string name="overlay_message">Damit der 3-2-1-Countdown über der App erscheint, die du aufnehmen möchtest, braucht CaptureCam die Berechtigung „Über anderen Apps einblenden“. Ohne sie wird der Countdown nur in der Benachrichtigung angezeigt.</string>
+    <string name="overlay_grant">Berechtigung erteilen</string>
+    <string name="overlay_skip">Jetzt nicht</string>
+
+    <!-- Über -->
+    <string name="about_open">Über CaptureCam</string>
+    <string name="about_title">Über</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_description">Ein kostenloser Bildschirmrekorder ohne Werbung, ohne Konto und ohne Internetzugriff. Deine Aufnahmen verlassen nie dein Handy.</string>
+    <string name="about_source">Quellcode</string>
+    <string name="about_more">Weitere Apps des Entwicklers</string>
+    <string name="about_privacy">Datenschutzerklärung</string>
+    <string name="about_x">Auf X folgen</string>
+    <string name="toast_no_browser">Keine App kann diesen Link öffnen</string>
+
+    <string name="tile_label">Bildschirmaufnahme</string>
+    <string name="tile_stop">Stopp</string>
+</resources>

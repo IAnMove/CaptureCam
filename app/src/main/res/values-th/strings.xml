@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- หน้าจอหลัก -->
+    <string name="tagline">บันทึกหน้าจอ ไม่มีโฆษณา</string>
+    <string name="state_idle">พร้อมบันทึก</string>
+    <string name="state_countdown">กำลังเริ่ม…</string>
+    <string name="state_recording">กำลังบันทึก</string>
+    <string name="state_paused">หยุดชั่วคราว</string>
+    <string name="btn_record">บันทึก</string>
+    <string name="btn_stop">หยุด</string>
+    <string name="btn_pause">หยุดชั่วคราว</string>
+    <string name="btn_resume">เล่นต่อ</string>
+    <string name="btn_cancel">ยกเลิก</string>
+    <string name="no_recordings">ยังไม่มีวิดีโอที่บันทึก</string>
+
+    <!-- การตั้งค่า -->
+    <string name="settings_title">การตั้งค่า</string>
+    <string name="setting_resolution">ความละเอียด</string>
+    <string name="setting_fps">เฟรมต่อวินาที</string>
+    <string name="setting_quality">คุณภาพ</string>
+    <string name="setting_orientation">การวางแนวหน้าจอ</string>
+    <string name="setting_mic">บันทึกเสียงจากไมโครโฟน</string>
+    <string name="setting_app_audio">บันทึกเสียงจากแอป</string>
+    <string name="setting_app_audio_hint">Android ต้องใช้สิทธิ์ไมโครโฟนสำหรับฟีเจอร์นี้ แต่ไม่ได้ใช้ไมโครโฟนจริง</string>
+    <string name="setting_countdown">นับถอยหลัง 3 วินาที</string>
+
+    <string-array name="resolution_labels">
+        <item>ต้นฉบับ</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>ต่ำ</item>
+        <item>ปานกลาง</item>
+        <item>สูง</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>อัตโนมัติ</item>
+        <item>แนวตั้ง</item>
+        <item>แนวนอน</item>
+    </string-array>
+
+    <!-- การแจ้งเตือน -->
+    <string name="channel_recording">กำลังบันทึกอยู่</string>
+    <string name="channel_saved">วิดีโอที่บันทึกแล้ว</string>
+    <string name="notif_countdown_title">จะเริ่มใน %1$d…</string>
+    <string name="notif_recording_title">กำลังบันทึกหน้าจอ</string>
+    <string name="notif_paused_title">หยุดบันทึกชั่วคราว</string>
+    <string name="notif_saved_title">บันทึกวิดีโอแล้ว</string>
+    <string name="notif_saved_text">แตะเพื่อดู</string>
+    <string name="notif_nothing_captured">วิดีโอสั้นเกินไป</string>
+
+    <!-- ข้อความแจ้ง -->
+    <string name="toast_no_consent">ต้องได้รับอนุญาตให้จับภาพหน้าจอจึงจะบันทึกได้</string>
+    <string name="toast_mic_denied">ไม่ได้รับอนุญาตใช้ไมโครโฟน: จะบันทึกโดยไม่มีเสียง</string>
+    <string name="toast_error">เริ่มบันทึกไม่ได้</string>
+    <string name="toast_no_player">ไม่พบแอปสำหรับเล่นวิดีโอ</string>
+
+    <!-- ประวัติและเครื่องเล่น -->
+    <string name="recents_title">ล่าสุด</string>
+    <string name="btn_all">ดูทั้งหมด</string>
+    <string name="history_title">วิดีโอที่บันทึก</string>
+    <string name="btn_share">แชร์</string>
+    <string name="btn_open_with">เปิดด้วย…</string>
+    <string name="btn_delete">ลบ</string>
+    <string name="cd_back">กลับ</string>
+    <string name="share_chooser">แชร์วิดีโอที่บันทึก</string>
+    <string name="delete_title">ลบวิดีโอนี้ไหม</string>
+    <string name="delete_message">ไม่สามารถย้อนกลับได้</string>
+    <string name="toast_deleted">ลบวิดีโอแล้ว</string>
+    <string name="toast_delete_failed">ลบไม่สำเร็จ</string>
+    <string name="toast_play_failed">เล่นวิดีโอนี้ไม่ได้</string>
+
+    <!-- โฟลเดอร์และสรุป -->
+    <string name="setting_storage">บันทึกไปที่</string>
+    <string-array name="storage_labels">
+        <item>ภาพยนตร์</item>
+        <item>ดาวน์โหลด</item>
+    </string-array>
+    <string name="saved_in_movies">บันทึกไว้ที่ ภาพยนตร์/CaptureCam</string>
+    <string name="saved_in_downloads">บันทึกไว้ที่ ดาวน์โหลด/CaptureCam</string>
+    <string name="summary_resolution">จะบันทึกที่ %1$d × %2$d</string>
+
+    <!-- สิทธิ์การนับถอยหลังบนหน้าจอ -->
+    <string name="overlay_title">นับถอยหลังบนหน้าจอ</string>
+    <string name="overlay_message">หากต้องการแสดง 3, 2, 1 ทับแอปที่คุณกำลังจะบันทึก CaptureCam ต้องใช้สิทธิ์ “แสดงทับแอปอื่นๆ” หากไม่ให้สิทธิ์ การนับถอยหลังจะแสดงในการแจ้งเตือนเท่านั้น</string>
+    <string name="overlay_grant">ให้สิทธิ์</string>
+    <string name="overlay_skip">ไม่ใช่ตอนนี้</string>
+
+    <!-- เกี่ยวกับ -->
+    <string name="about_open">เกี่ยวกับ CaptureCam</string>
+    <string name="about_title">เกี่ยวกับ</string>
+    <string name="about_version">เวอร์ชัน %1$s</string>
+    <string name="about_description">แอปบันทึกหน้าจอฟรี ไม่มีโฆษณา ไม่ต้องมีบัญชี และไม่ใช้อินเทอร์เน็ต วิดีโอของคุณจะไม่ออกจากโทรศัพท์ไปไหน</string>
+    <string name="about_source">ซอร์สโค้ด</string>
+    <string name="about_more">แอปอื่นๆ ของผู้พัฒนา</string>
+    <string name="about_privacy">นโยบายความเป็นส่วนตัว</string>
+    <string name="about_x">ติดตามบน X</string>
+    <string name="toast_no_browser">ไม่มีแอปที่เปิดลิงก์นี้ได้</string>
+
+    <string name="tile_label">บันทึกหน้าจอ</string>
+    <string name="tile_stop">หยุด</string>
+</resources>

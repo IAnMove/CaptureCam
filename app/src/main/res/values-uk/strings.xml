@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Головний екран -->
+    <string name="tagline">Записуйте екран. Без реклами.</string>
+    <string name="state_idle">Готово до запису</string>
+    <string name="state_countdown">Запуск…</string>
+    <string name="state_recording">Триває запис</string>
+    <string name="state_paused">Призупинено</string>
+    <string name="btn_record">Записати</string>
+    <string name="btn_stop">Зупинити</string>
+    <string name="btn_pause">Пауза</string>
+    <string name="btn_resume">Продовжити</string>
+    <string name="btn_cancel">Скасувати</string>
+    <string name="no_recordings">Записів ще немає</string>
+
+    <!-- Налаштування -->
+    <string name="settings_title">Налаштування</string>
+    <string name="setting_resolution">Роздільна здатність</string>
+    <string name="setting_fps">Кадрів за секунду</string>
+    <string name="setting_quality">Якість</string>
+    <string name="setting_orientation">Орієнтація</string>
+    <string name="setting_mic">Записувати мікрофон</string>
+    <string name="setting_app_audio">Записувати звук застосунків</string>
+    <string name="setting_app_audio_hint">Для цього Android вимагає дозвіл на мікрофон, але сам мікрофон не використовується.</string>
+    <string name="setting_countdown">Відлік на 3 секунди</string>
+
+    <string-array name="resolution_labels">
+        <item>Оригінал</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>Низька</item>
+        <item>Середня</item>
+        <item>Висока</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>Автоматично</item>
+        <item>Книжкова</item>
+        <item>Альбомна</item>
+    </string-array>
+
+    <!-- Сповіщення -->
+    <string name="channel_recording">Триває запис</string>
+    <string name="channel_saved">Збережені записи</string>
+    <string name="notif_countdown_title">Початок через %1$d…</string>
+    <string name="notif_recording_title">Запис екрана</string>
+    <string name="notif_paused_title">Запис призупинено</string>
+    <string name="notif_saved_title">Запис збережено</string>
+    <string name="notif_saved_text">Торкніться, щоб переглянути</string>
+    <string name="notif_nothing_captured">Запис був надто коротким</string>
+
+    <!-- Повідомлення -->
+    <string name="toast_no_consent">Для запису потрібен дозвіл на захоплення екрана</string>
+    <string name="toast_mic_denied">Немає дозволу на мікрофон: запис буде без звуку</string>
+    <string name="toast_error">Не вдалося почати запис</string>
+    <string name="toast_no_player">Не знайдено додатка для відтворення відео</string>
+
+    <!-- Історія та програвач -->
+    <string name="recents_title">Нещодавні</string>
+    <string name="btn_all">Показати всі</string>
+    <string name="history_title">Записи</string>
+    <string name="btn_share">Поділитися</string>
+    <string name="btn_open_with">Відкрити за допомогою…</string>
+    <string name="btn_delete">Видалити</string>
+    <string name="cd_back">Назад</string>
+    <string name="share_chooser">Поділитися записом</string>
+    <string name="delete_title">Видалити цей запис?</string>
+    <string name="delete_message">Цю дію не можна скасувати.</string>
+    <string name="toast_deleted">Запис видалено</string>
+    <string name="toast_delete_failed">Не вдалося видалити</string>
+    <string name="toast_play_failed">Не вдається відтворити це відео</string>
+
+    <!-- Папка та підсумок -->
+    <string name="setting_storage">Зберігати в</string>
+    <string-array name="storage_labels">
+        <item>Фільми</item>
+        <item>Завантаження</item>
+    </string-array>
+    <string name="saved_in_movies">Зберігається в папці Фільми/CaptureCam</string>
+    <string name="saved_in_downloads">Зберігається в папці Завантаження/CaptureCam</string>
+    <string name="summary_resolution">Запис буде в %1$d × %2$d</string>
+
+    <!-- Дозвіл на відлік на екрані -->
+    <string name="overlay_title">Відлік на екрані</string>
+    <string name="overlay_message">Щоб показати 3, 2, 1 поверх додатка, який ви збираєтеся записувати, CaptureCam потрібен дозвіл «Показувати поверх інших додатків». Без нього відлік відображатиметься лише в сповіщенні.</string>
+    <string name="overlay_grant">Надати дозвіл</string>
+    <string name="overlay_skip">Не зараз</string>
+
+    <!-- Про додаток -->
+    <string name="about_open">Про CaptureCam</string>
+    <string name="about_title">Про додаток</string>
+    <string name="about_version">Версія %1$s</string>
+    <string name="about_description">Безкоштовний рекордер екрана без реклами, облікових записів і доступу до інтернету. Ваші записи ніколи не залишають телефон.</string>
+    <string name="about_source">Вихідний код</string>
+    <string name="about_more">Інші застосунки автора</string>
+    <string name="about_privacy">Політика конфіденційності</string>
+    <string name="about_x">Підписатися в X</string>
+    <string name="toast_no_browser">Жоден додаток не може відкрити це посилання</string>
+
+    <string name="tile_label">Запис екрана</string>
+    <string name="tile_stop">Зупинити</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- メイン画面 -->
+    <string name="tagline">画面を録画。広告なし。</string>
+    <string name="state_idle">録画の準備完了</string>
+    <string name="state_countdown">開始中…</string>
+    <string name="state_recording">録画中</string>
+    <string name="state_paused">一時停止中</string>
+    <string name="btn_record">録画</string>
+    <string name="btn_stop">停止</string>
+    <string name="btn_pause">一時停止</string>
+    <string name="btn_resume">再開</string>
+    <string name="btn_cancel">キャンセル</string>
+    <string name="no_recordings">録画はまだありません</string>
+
+    <!-- 設定 -->
+    <string name="settings_title">設定</string>
+    <string name="setting_resolution">解像度</string>
+    <string name="setting_fps">フレームレート</string>
+    <string name="setting_quality">画質</string>
+    <string name="setting_orientation">画面の向き</string>
+    <string name="setting_mic">マイク音声を録音</string>
+    <string name="setting_app_audio">アプリの音声を録音</string>
+    <string name="setting_app_audio_hint">この機能にはAndroidの仕様でマイクの権限が必要ですが、マイク自体は使用しません。</string>
+    <string name="setting_countdown">3秒カウントダウン</string>
+
+    <string-array name="resolution_labels">
+        <item>オリジナル</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>自動</item>
+        <item>縦向き</item>
+        <item>横向き</item>
+    </string-array>
+
+    <!-- 通知 -->
+    <string name="channel_recording">録画中</string>
+    <string name="channel_saved">保存済みの録画</string>
+    <string name="notif_countdown_title">開始まで %1$d…</string>
+    <string name="notif_recording_title">画面を録画中</string>
+    <string name="notif_paused_title">録画を一時停止中</string>
+    <string name="notif_saved_title">録画を保存しました</string>
+    <string name="notif_saved_text">タップして再生</string>
+    <string name="notif_nothing_captured">録画が短すぎました</string>
+
+    <!-- メッセージ -->
+    <string name="toast_no_consent">録画するには画面キャプチャの許可が必要です</string>
+    <string name="toast_mic_denied">マイクの許可がないため、音声なしで録画します</string>
+    <string name="toast_error">録画を開始できませんでした</string>
+    <string name="toast_no_player">動画を再生できるアプリが見つかりません</string>
+
+    <!-- 履歴とプレーヤー -->
+    <string name="recents_title">最近</string>
+    <string name="btn_all">すべて表示</string>
+    <string name="history_title">録画</string>
+    <string name="btn_share">共有</string>
+    <string name="btn_open_with">アプリで開く…</string>
+    <string name="btn_delete">削除</string>
+    <string name="cd_back">戻る</string>
+    <string name="share_chooser">録画を共有</string>
+    <string name="delete_title">この録画を削除しますか？</string>
+    <string name="delete_message">この操作は元に戻せません。</string>
+    <string name="toast_deleted">録画を削除しました</string>
+    <string name="toast_delete_failed">削除できませんでした</string>
+    <string name="toast_play_failed">この動画は再生できません</string>
+
+    <!-- フォルダと概要 -->
+    <string name="setting_storage">保存先</string>
+    <string-array name="storage_labels">
+        <item>ムービー</item>
+        <item>ダウンロード</item>
+    </string-array>
+    <string name="saved_in_movies">ムービー/CaptureCam に保存されます</string>
+    <string name="saved_in_downloads">ダウンロード/CaptureCam に保存されます</string>
+    <string name="summary_resolution">%1$d × %2$d で録画します</string>
+
+    <!-- 画面上のカウントダウンの権限 -->
+    <string name="overlay_title">画面上のカウントダウン</string>
+    <string name="overlay_message">録画するアプリの上に 3、2、1 を表示するには、CaptureCam に「他のアプリの上に重ねて表示」の権限が必要です。許可しない場合、カウントダウンは通知にのみ表示されます。</string>
+    <string name="overlay_grant">権限を許可</string>
+    <string name="overlay_skip">あとで</string>
+
+    <!-- アプリについて -->
+    <string name="about_open">CaptureCam について</string>
+    <string name="about_title">このアプリについて</string>
+    <string name="about_version">バージョン %1$s</string>
+    <string name="about_description">広告なし、アカウント不要、インターネット接続なしで使える無料の画面録画アプリです。録画データがスマートフォンの外に出ることはありません。</string>
+    <string name="about_source">ソースコード</string>
+    <string name="about_more">開発者の他のアプリ</string>
+    <string name="about_privacy">プライバシー ポリシー</string>
+    <string name="about_x">X でフォロー</string>
+    <string name="toast_no_browser">このリンクを開けるアプリがありません</string>
+
+    <string name="tile_label">画面を録画</string>
+    <string name="tile_stop">停止</string>
+</resources>

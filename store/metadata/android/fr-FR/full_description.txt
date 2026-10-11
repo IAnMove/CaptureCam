@@ -1,0 +1,32 @@
+CaptureCam est un enregistreur d'écran simple et gratuit, sans publicité, sans compte et sans accès à internet. Vos enregistrements ne quittent jamais votre téléphone.
+
+ENREGISTREZ CE QUE VOUS VOULEZ
+• Enregistrez tout l'écran ou une seule appli
+• Mettez en pause et reprenez à tout moment
+• Compte à rebours 3, 2, 1 facultatif à l'écran, pour vous préparer
+• Tuile des Réglages rapides pour démarrer et arrêter sans ouvrir l'appli
+• Commandes directement dans la notification
+
+VOS VIDÉOS, À VOTRE FAÇON
+• Choisissez la résolution (jusqu'à la taille native de votre écran), le nombre d'images par seconde et la qualité
+• Orientation portrait, paysage ou automatique
+• Enregistre le son des applis (activé par défaut) et, en option, le micro
+• Enregistrées en fichiers MP4 standard dans Films ou Téléchargements, prêtes à partager
+
+GALERIE INTÉGRÉE
+• Parcourez vos enregistrements récents dans une grille claire
+• Visionnez-les dans l'appli
+• Partagez, ouvrez avec une autre appli ou supprimez en un geste
+
+VIE PRIVÉE DÈS LA CONCEPTION
+• Aucune publicité, aucun traceur
+• L'appli n'a même pas l'autorisation internet : elle ne peut rien envoyer nulle part
+• Gratuite et open source
+
+BON À SAVOIR
+• Nécessite Android 11 ou version ultérieure
+• Le son des applis dépend de chaque appli : celles qui bloquent la capture audio et les contenus protégés sont enregistrés sans son
+• Les applis qui bloquent la capture d'écran (certaines applis bancaires ou vidéo) s'afficheront en noir
+• L'autorisation facultative « Afficher par-dessus d'autres applis » sert uniquement à afficher le compte à rebours à l'écran
+
+Une question, une idée ? Retrouvez le code source et les coordonnées de contact dans l'appli, sous « À propos de CaptureCam ».

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Главный экран -->
+    <string name="tagline">Записывайте экран. Без рекламы.</string>
+    <string name="state_idle">Готово к записи</string>
+    <string name="state_countdown">Запуск…</string>
+    <string name="state_recording">Идёт запись</string>
+    <string name="state_paused">Пауза</string>
+    <string name="btn_record">Записать</string>
+    <string name="btn_stop">Остановить</string>
+    <string name="btn_pause">Пауза</string>
+    <string name="btn_resume">Продолжить</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="no_recordings">Записей пока нет</string>
+
+    <!-- Настройки -->
+    <string name="settings_title">Настройки</string>
+    <string name="setting_resolution">Разрешение</string>
+    <string name="setting_fps">Кадров в секунду</string>
+    <string name="setting_quality">Качество</string>
+    <string name="setting_orientation">Ориентация</string>
+    <string name="setting_mic">Записывать микрофон</string>
+    <string name="setting_app_audio">Записывать звук приложений</string>
+    <string name="setting_app_audio_hint">Android требует для этого разрешение на микрофон, но сам микрофон не используется.</string>
+    <string name="setting_countdown">Обратный отсчёт 3 с</string>
+
+    <string-array name="resolution_labels">
+        <item>Исходное</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>Низкое</item>
+        <item>Среднее</item>
+        <item>Высокое</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>Авто</item>
+        <item>Портретная</item>
+        <item>Альбомная</item>
+    </string-array>
+
+    <!-- Уведомления -->
+    <string name="channel_recording">Идёт запись</string>
+    <string name="channel_saved">Сохранённые записи</string>
+    <string name="notif_countdown_title">Запись начнётся через %1$d…</string>
+    <string name="notif_recording_title">Идёт запись экрана</string>
+    <string name="notif_paused_title">Запись приостановлена</string>
+    <string name="notif_saved_title">Запись сохранена</string>
+    <string name="notif_saved_text">Нажмите, чтобы посмотреть</string>
+    <string name="notif_nothing_captured">Запись получилась слишком короткой</string>
+
+    <!-- Сообщения -->
+    <string name="toast_no_consent">Для записи нужно разрешение на захват экрана</string>
+    <string name="toast_mic_denied">Нет разрешения на микрофон: запись будет без звука</string>
+    <string name="toast_error">Не удалось начать запись</string>
+    <string name="toast_no_player">Не найдено приложение для воспроизведения видео</string>
+
+    <!-- История и плеер -->
+    <string name="recents_title">Недавние</string>
+    <string name="btn_all">Показать все</string>
+    <string name="history_title">Записи</string>
+    <string name="btn_share">Поделиться</string>
+    <string name="btn_open_with">Открыть с помощью…</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="cd_back">Назад</string>
+    <string name="share_chooser">Поделиться записью</string>
+    <string name="delete_title">Удалить эту запись?</string>
+    <string name="delete_message">Это действие нельзя отменить.</string>
+    <string name="toast_deleted">Запись удалена</string>
+    <string name="toast_delete_failed">Не удалось удалить</string>
+    <string name="toast_play_failed">Не удаётся воспроизвести это видео</string>
+
+    <!-- Папка и сводка -->
+    <string name="setting_storage">Сохранять в</string>
+    <string-array name="storage_labels">
+        <item>Фильмы</item>
+        <item>Загрузки</item>
+    </string-array>
+    <string name="saved_in_movies">Сохраняется в Фильмы/CaptureCam</string>
+    <string name="saved_in_downloads">Сохраняется в Загрузки/CaptureCam</string>
+    <string name="summary_resolution">Запись в %1$d × %2$d</string>
+
+    <!-- Разрешение для отсчёта на экране -->
+    <string name="overlay_title">Отсчёт на экране</string>
+    <string name="overlay_message">Чтобы показывать 3, 2, 1 поверх приложения, которое вы собираетесь записывать, CaptureCam нужно разрешение «Поверх других приложений». Без него отсчёт виден только в уведомлении.</string>
+    <string name="overlay_grant">Разрешить</string>
+    <string name="overlay_skip">Не сейчас</string>
+
+    <!-- О приложении -->
+    <string name="about_open">О приложении CaptureCam</string>
+    <string name="about_title">О приложении</string>
+    <string name="about_version">Версия %1$s</string>
+    <string name="about_description">Бесплатная программа для записи экрана без рекламы, аккаунтов и доступа в интернет. Ваши записи никогда не покидают телефон.</string>
+    <string name="about_source">Исходный код</string>
+    <string name="about_more">Другие приложения автора</string>
+    <string name="about_privacy">Политика конфиденциальности</string>
+    <string name="about_x">Подписаться в X</string>
+    <string name="toast_no_browser">Нет приложения, которое может открыть эту ссылку</string>
+
+    <string name="tile_label">Запись экрана</string>
+    <string name="tile_stop">Остановить</string>
+</resources>

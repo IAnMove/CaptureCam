@@ -1,0 +1,32 @@
+CaptureCam is a simple, free screen recorder with no ads, no accounts and no internet access. Your recordings never leave your phone.
+
+RECORD WHAT YOU WANT
+• Record your whole screen or just one app
+• Pause and resume at any time
+• Optional on-screen 3-2-1 countdown, so you can get ready
+• Quick Settings tile to start and stop without opening the app
+• Controls right in the notification
+
+YOUR VIDEOS, YOUR WAY
+• Choose resolution (up to your screen's native size), frames per second and quality
+• Portrait, landscape or automatic orientation
+• Records app sound (on by default) and, optionally, the microphone
+• Saved as standard MP4 files in Movies or Downloads, ready to share
+
+BUILT-IN GALLERY
+• Browse your recent recordings in a clean grid
+• Preview them inside the app
+• Share, open with another app or delete in a tap
+
+PRIVATE BY DESIGN
+• No ads and no trackers
+• The app doesn't even have the internet permission, so it cannot send anything anywhere
+• Free and open source
+
+GOOD TO KNOW
+• Requires Android 11 or newer
+• App sound depends on each app: apps that block audio capture, and protected content, are recorded without sound
+• Apps that block screen capture (some banking or video apps) will appear black
+• The optional "Display over other apps" permission is only used to show the on-screen countdown
+
+Questions or ideas? Find the source code and contact details inside the app, under "About CaptureCam".

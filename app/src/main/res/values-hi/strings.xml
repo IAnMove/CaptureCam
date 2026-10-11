@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- मुख्य स्क्रीन -->
+    <string name="tagline">अपनी स्क्रीन रिकॉर्ड करें। बिना विज्ञापन।</string>
+    <string name="state_idle">रिकॉर्ड करने के लिए तैयार</string>
+    <string name="state_countdown">शुरू हो रहा है…</string>
+    <string name="state_recording">रिकॉर्ड हो रहा है</string>
+    <string name="state_paused">रुका हुआ</string>
+    <string name="btn_record">रिकॉर्ड करें</string>
+    <string name="btn_stop">बंद करें</string>
+    <string name="btn_pause">पॉज़ करें</string>
+    <string name="btn_resume">जारी रखें</string>
+    <string name="btn_cancel">रद्द करें</string>
+    <string name="no_recordings">अभी तक कोई रिकॉर्डिंग नहीं</string>
+
+    <!-- सेटिंग -->
+    <string name="settings_title">सेटिंग</string>
+    <string name="setting_resolution">रिज़ॉल्यूशन</string>
+    <string name="setting_fps">फ़्रेम प्रति सेकंड</string>
+    <string name="setting_quality">गुणवत्ता</string>
+    <string name="setting_orientation">ओरिएंटेशन</string>
+    <string name="setting_mic">माइक्रोफ़ोन की आवाज़ रिकॉर्ड करें</string>
+    <string name="setting_app_audio">ऐप्स की आवाज़ रिकॉर्ड करें</string>
+    <string name="setting_app_audio_hint">इसके लिए Android माइक्रोफ़ोन की अनुमति माँगता है, लेकिन माइक्रोफ़ोन का उपयोग नहीं होता।</string>
+    <string name="setting_countdown">3 सेकंड की उलटी गिनती</string>
+
+    <string-array name="resolution_labels">
+        <item>मूल</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>कम</item>
+        <item>मध्यम</item>
+        <item>उच्च</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>ऑटो</item>
+        <item>पोर्ट्रेट</item>
+        <item>लैंडस्केप</item>
+    </string-array>
+
+    <!-- सूचनाएं -->
+    <string name="channel_recording">रिकॉर्डिंग जारी है</string>
+    <string name="channel_saved">सेव की गई रिकॉर्डिंग</string>
+    <string name="notif_countdown_title">शुरू होने में %1$d…</string>
+    <string name="notif_recording_title">स्क्रीन रिकॉर्ड हो रही है</string>
+    <string name="notif_paused_title">रिकॉर्डिंग रुकी हुई है</string>
+    <string name="notif_saved_title">रिकॉर्डिंग सेव हो गई</string>
+    <string name="notif_saved_text">देखने के लिए टैप करें</string>
+    <string name="notif_nothing_captured">रिकॉर्डिंग बहुत छोटी थी</string>
+
+    <!-- संदेश -->
+    <string name="toast_no_consent">रिकॉर्ड करने के लिए स्क्रीन कैप्चर की अनुमति ज़रूरी है</string>
+    <string name="toast_mic_denied">माइक्रोफ़ोन की अनुमति नहीं है: बिना आवाज़ के रिकॉर्ड होगा</string>
+    <string name="toast_error">रिकॉर्डिंग शुरू नहीं हो सकी</string>
+    <string name="toast_no_player">वीडियो चलाने के लिए कोई ऐप नहीं मिला</string>
+
+    <!-- इतिहास और प्लेयर -->
+    <string name="recents_title">हाल की</string>
+    <string name="btn_all">सभी देखें</string>
+    <string name="history_title">रिकॉर्डिंग</string>
+    <string name="btn_share">शेयर करें</string>
+    <string name="btn_open_with">इससे खोलें…</string>
+    <string name="btn_delete">मिटाएं</string>
+    <string name="cd_back">वापस जाएं</string>
+    <string name="share_chooser">रिकॉर्डिंग शेयर करें</string>
+    <string name="delete_title">यह रिकॉर्डिंग मिटाएं?</string>
+    <string name="delete_message">इसे वापस नहीं लाया जा सकता।</string>
+    <string name="toast_deleted">रिकॉर्डिंग मिटा दी गई</string>
+    <string name="toast_delete_failed">मिटाया नहीं जा सका</string>
+    <string name="toast_play_failed">यह वीडियो नहीं चलाया जा सकता</string>
+
+    <!-- फ़ोल्डर और सारांश -->
+    <string name="setting_storage">यहां सेव करें</string>
+    <string-array name="storage_labels">
+        <item>मूवी</item>
+        <item>डाउनलोड</item>
+    </string-array>
+    <string name="saved_in_movies">मूवी/CaptureCam में सेव किया गया</string>
+    <string name="saved_in_downloads">डाउनलोड/CaptureCam में सेव किया गया</string>
+    <string name="summary_resolution">%1$d × %2$d पर रिकॉर्ड होगा</string>
+
+    <!-- स्क्रीन पर उलटी गिनती की अनुमति -->
+    <string name="overlay_title">स्क्रीन पर उलटी गिनती</string>
+    <string name="overlay_message">जिस ऐप को आप रिकॉर्ड करने वाले हैं, उसके ऊपर 3, 2, 1 दिखाने के लिए CaptureCam को “दूसरे ऐप्लिकेशन के ऊपर दिखाएं” की अनुमति चाहिए। इसके बिना उलटी गिनती सिर्फ़ सूचना में दिखेगी।</string>
+    <string name="overlay_grant">अनुमति दें</string>
+    <string name="overlay_skip">अभी नहीं</string>
+
+    <!-- बारे में -->
+    <string name="about_open">CaptureCam के बारे में</string>
+    <string name="about_title">बारे में</string>
+    <string name="about_version">वर्शन %1$s</string>
+    <string name="about_description">बिना विज्ञापन, बिना अकाउंट और बिना इंटरनेट एक्सेस वाला मुफ़्त स्क्रीन रिकॉर्डर। आपकी रिकॉर्डिंग कभी आपके फ़ोन से बाहर नहीं जाती।</string>
+    <string name="about_source">सोर्स कोड</string>
+    <string name="about_more">डेवलपर के और ऐप्स</string>
+    <string name="about_privacy">निजता नीति</string>
+    <string name="about_x">X पर फ़ॉलो करें</string>
+    <string name="toast_no_browser">कोई ऐप यह लिंक नहीं खोल सकता</string>
+
+    <string name="tile_label">स्क्रीन रिकॉर्ड करें</string>
+    <string name="tile_stop">बंद करें</string>
+</resources>

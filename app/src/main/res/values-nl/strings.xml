@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hoofdscherm -->
+    <string name="tagline">Neem je scherm op. Zonder advertenties.</string>
+    <string name="state_idle">Klaar om op te nemen</string>
+    <string name="state_countdown">Starten…</string>
+    <string name="state_recording">Bezig met opnemen</string>
+    <string name="state_paused">Gepauzeerd</string>
+    <string name="btn_record">Opnemen</string>
+    <string name="btn_stop">Stoppen</string>
+    <string name="btn_pause">Pauzeren</string>
+    <string name="btn_resume">Hervatten</string>
+    <string name="btn_cancel">Annuleren</string>
+    <string name="no_recordings">Nog geen opnamen</string>
+
+    <!-- Instellingen -->
+    <string name="settings_title">Instellingen</string>
+    <string name="setting_resolution">Resolutie</string>
+    <string name="setting_fps">Frames per seconde</string>
+    <string name="setting_quality">Kwaliteit</string>
+    <string name="setting_orientation">Schermstand</string>
+    <string name="setting_mic">Microfoon opnemen</string>
+    <string name="setting_app_audio">App-geluid opnemen</string>
+    <string name="setting_app_audio_hint">Android vraagt hiervoor om de microfoonmachtiging, maar de microfoon wordt niet gebruikt.</string>
+    <string name="setting_countdown">Aftellen van 3 seconden</string>
+
+    <string-array name="resolution_labels">
+        <item>Origineel</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>Laag</item>
+        <item>Gemiddeld</item>
+        <item>Hoog</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>Automatisch</item>
+        <item>Staand</item>
+        <item>Liggend</item>
+    </string-array>
+
+    <!-- Meldingen -->
+    <string name="channel_recording">Opname bezig</string>
+    <string name="channel_saved">Opgeslagen opnamen</string>
+    <string name="notif_countdown_title">Start over %1$d…</string>
+    <string name="notif_recording_title">Scherm wordt opgenomen</string>
+    <string name="notif_paused_title">Opname gepauzeerd</string>
+    <string name="notif_saved_title">Opname opgeslagen</string>
+    <string name="notif_saved_text">Tik om te bekijken</string>
+    <string name="notif_nothing_captured">De opname was te kort</string>
+
+    <!-- Berichten -->
+    <string name="toast_no_consent">Toestemming voor schermopname is nodig om op te nemen</string>
+    <string name="toast_mic_denied">Geen microfoontoestemming: opname zonder geluid</string>
+    <string name="toast_error">Opname starten is mislukt</string>
+    <string name="toast_no_player">Geen app gevonden om de video af te spelen</string>
+
+    <!-- Geschiedenis en speler -->
+    <string name="recents_title">Recent</string>
+    <string name="btn_all">Alles bekijken</string>
+    <string name="history_title">Opnamen</string>
+    <string name="btn_share">Delen</string>
+    <string name="btn_open_with">Openen met…</string>
+    <string name="btn_delete">Verwijderen</string>
+    <string name="cd_back">Terug</string>
+    <string name="share_chooser">Opname delen</string>
+    <string name="delete_title">Deze opname verwijderen?</string>
+    <string name="delete_message">Dit kan niet ongedaan worden gemaakt.</string>
+    <string name="toast_deleted">Opname verwijderd</string>
+    <string name="toast_delete_failed">Verwijderen mislukt</string>
+    <string name="toast_play_failed">Deze video kan niet worden afgespeeld</string>
+
+    <!-- Map en samenvatting -->
+    <string name="setting_storage">Opslaan in</string>
+    <string-array name="storage_labels">
+        <item>Films</item>
+        <item>Downloads</item>
+    </string-array>
+    <string name="saved_in_movies">Wordt opgeslagen in Films/CaptureCam</string>
+    <string name="saved_in_downloads">Wordt opgeslagen in Downloads/CaptureCam</string>
+    <string name="summary_resolution">Neemt op in %1$d × %2$d</string>
+
+    <!-- Toestemming voor aftellen op het scherm -->
+    <string name="overlay_title">Aftellen op het scherm</string>
+    <string name="overlay_message">Om het aftellen 3, 2, 1 te tonen boven de app die je gaat opnemen, heeft CaptureCam de toestemming “Weergeven vóór andere apps” nodig. Zonder deze toestemming verschijnt het aftellen alleen in de melding.</string>
+    <string name="overlay_grant">Toestemming geven</string>
+    <string name="overlay_skip">Niet nu</string>
+
+    <!-- Over -->
+    <string name="about_open">Over CaptureCam</string>
+    <string name="about_title">Over</string>
+    <string name="about_version">Versie %1$s</string>
+    <string name="about_description">Een gratis schermrecorder zonder advertenties, zonder accounts en zonder internettoegang. Je opnamen verlaten je telefoon nooit.</string>
+    <string name="about_source">Broncode</string>
+    <string name="about_more">Meer apps van de ontwikkelaar</string>
+    <string name="about_privacy">Privacybeleid</string>
+    <string name="about_x">Volg op X</string>
+    <string name="toast_no_browser">Geen enkele app kan deze link openen</string>
+
+    <string name="tile_label">Scherm opnemen</string>
+    <string name="tile_stop">Stoppen</string>
+</resources>

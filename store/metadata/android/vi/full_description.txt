@@ -1,0 +1,32 @@
+CaptureCam là ứng dụng quay màn hình đơn giản, miễn phí, không quảng cáo, không tài khoản và không truy cập internet. Bản ghi của bạn không bao giờ rời khỏi điện thoại.
+
+QUAY THEO Ý BẠN
+• Quay toàn màn hình hoặc chỉ một ứng dụng
+• Tạm dừng và tiếp tục bất cứ lúc nào
+• Đếm ngược 3-2-1 trên màn hình (tùy chọn) để bạn kịp chuẩn bị
+• Ô Cài đặt nhanh để bắt đầu và dừng mà không cần mở ứng dụng
+• Điều khiển ngay trong thông báo
+
+VIDEO THEO CÁCH CỦA BẠN
+• Chọn độ phân giải (tối đa bằng kích thước gốc của màn hình), số khung hình/giây và chất lượng
+• Hướng dọc, ngang hoặc tự động
+• Ghi âm thanh của ứng dụng (bật theo mặc định) và ghi micrô nếu muốn
+• Lưu thành tệp MP4 chuẩn trong thư mục Phim hoặc Tải xuống, sẵn sàng để chia sẻ
+
+THƯ VIỆN TÍCH HỢP
+• Xem các bản ghi gần đây trong một lưới gọn gàng
+• Xem trước ngay trong ứng dụng
+• Chia sẻ, mở bằng ứng dụng khác hoặc xóa chỉ với một chạm
+
+RIÊNG TƯ TỪ THIẾT KẾ
+• Không quảng cáo, không trình theo dõi
+• Ứng dụng thậm chí không có quyền truy cập internet nên không thể gửi bất cứ thứ gì đi đâu
+• Miễn phí và mã nguồn mở
+
+CẦN BIẾT
+• Yêu cầu Android 11 trở lên
+• Âm thanh ứng dụng tùy thuộc vào từng ứng dụng: ứng dụng chặn ghi âm và nội dung được bảo vệ sẽ được ghi không có tiếng
+• Ứng dụng chặn quay màn hình (một số ứng dụng ngân hàng hoặc video) sẽ hiện màn hình đen
+• Quyền tùy chọn “Hiển thị trên các ứng dụng khác” chỉ được dùng để hiện bộ đếm ngược trên màn hình
+
+Có câu hỏi hoặc ý tưởng? Bạn sẽ thấy mã nguồn và thông tin liên hệ trong ứng dụng, tại mục “Giới thiệu CaptureCam”.

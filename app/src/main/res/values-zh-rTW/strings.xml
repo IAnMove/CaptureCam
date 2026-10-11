@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主畫面 -->
+    <string name="tagline">錄製螢幕，沒有廣告。</string>
+    <string name="state_idle">準備開始錄製</string>
+    <string name="state_countdown">即將開始…</string>
+    <string name="state_recording">錄製中</string>
+    <string name="state_paused">已暫停</string>
+    <string name="btn_record">錄製</string>
+    <string name="btn_stop">停止</string>
+    <string name="btn_pause">暫停</string>
+    <string name="btn_resume">繼續</string>
+    <string name="btn_cancel">取消</string>
+    <string name="no_recordings">尚無錄影</string>
+
+    <!-- 設定 -->
+    <string name="settings_title">設定</string>
+    <string name="setting_resolution">解析度</string>
+    <string name="setting_fps">每秒影格數</string>
+    <string name="setting_quality">品質</string>
+    <string name="setting_orientation">螢幕方向</string>
+    <string name="setting_mic">錄製麥克風聲音</string>
+    <string name="setting_app_audio">錄製應用程式聲音</string>
+    <string name="setting_app_audio_hint">Android 要求為此授予麥克風權限，但不會使用麥克風。</string>
+    <string name="setting_countdown">3 秒倒數</string>
+
+    <string-array name="resolution_labels">
+        <item>原始</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>自動</item>
+        <item>直向</item>
+        <item>橫向</item>
+    </string-array>
+
+    <!-- 通知 -->
+    <string name="channel_recording">錄製進行中</string>
+    <string name="channel_saved">已儲存的錄影</string>
+    <string name="notif_countdown_title">%1$d 秒後開始…</string>
+    <string name="notif_recording_title">正在錄製螢幕</string>
+    <string name="notif_paused_title">錄製已暫停</string>
+    <string name="notif_saved_title">錄影已儲存</string>
+    <string name="notif_saved_text">輕觸即可觀看</string>
+    <string name="notif_nothing_captured">錄影時間太短</string>
+
+    <!-- 訊息 -->
+    <string name="toast_no_consent">需要螢幕擷取權限才能錄製</string>
+    <string name="toast_mic_denied">沒有麥克風權限，將不含聲音錄製</string>
+    <string name="toast_error">無法開始錄製</string>
+    <string name="toast_no_player">找不到可播放影片的應用程式</string>
+
+    <!-- 記錄與播放器 -->
+    <string name="recents_title">最近</string>
+    <string name="btn_all">查看全部</string>
+    <string name="history_title">錄影</string>
+    <string name="btn_share">分享</string>
+    <string name="btn_open_with">開啟方式…</string>
+    <string name="btn_delete">刪除</string>
+    <string name="cd_back">返回</string>
+    <string name="share_chooser">分享錄影</string>
+    <string name="delete_title">要刪除這段錄影嗎？</string>
+    <string name="delete_message">刪除後就無法復原了。</string>
+    <string name="toast_deleted">已刪除錄影</string>
+    <string name="toast_delete_failed">無法刪除</string>
+    <string name="toast_play_failed">無法播放這部影片</string>
+
+    <!-- 資料夾與摘要 -->
+    <string name="setting_storage">儲存位置</string>
+    <string-array name="storage_labels">
+        <item>電影</item>
+        <item>下載</item>
+    </string-array>
+    <string name="saved_in_movies">將儲存至「電影/CaptureCam」</string>
+    <string name="saved_in_downloads">將儲存至「下載/CaptureCam」</string>
+    <string name="summary_resolution">將以 %1$d × %2$d 錄製</string>
+
+    <!-- 螢幕倒數權限 -->
+    <string name="overlay_title">螢幕倒數</string>
+    <string name="overlay_message">為了在你要錄製的應用程式上方顯示 3、2、1 倒數，CaptureCam 需要「重疊顯示於其他應用程式上方」權限。若未授予，倒數只會顯示在通知中。</string>
+    <string name="overlay_grant">授予權限</string>
+    <string name="overlay_skip">暫時不要</string>
+
+    <!-- 關於 -->
+    <string name="about_open">關於 CaptureCam</string>
+    <string name="about_title">關於</string>
+    <string name="about_version">版本 %1$s</string>
+    <string name="about_description">免費的螢幕錄影工具，沒有廣告、不需帳號，也不需要網路連線。你的錄影內容絕不會離開你的手機。</string>
+    <string name="about_source">原始碼</string>
+    <string name="about_more">開發者的更多應用程式</string>
+    <string name="about_privacy">隱私權政策</string>
+    <string name="about_x">在 X 上追蹤</string>
+    <string name="toast_no_browser">沒有任何應用程式可以開啟這個連結</string>
+
+    <string name="tile_label">錄製螢幕</string>
+    <string name="tile_stop">停止</string>
+</resources>

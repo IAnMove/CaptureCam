@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/on_surface"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/tagline"
+            android:textColor="@color/on_surface_variant"
+            android:textSize="15sp" />
+
+        <!-- Botón principal -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp">
+
+            <ImageButton
+                android:id="@+id/btnRecord"
+                android:layout_width="132dp"
+                android:layout_height="132dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bg_record_button"
+                android:contentDescription="@string/btn_record"
+                android:elevation="6dp"
+                android:padding="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_record" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFeatureSettings="tnum"
+            android:gravity="center"
+            android:text="00:00"
+            android:textColor="@color/on_surface"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="@string/state_idle"
+            android:textColor="@color/on_surface_variant"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnPause"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_button_secondary"
+            android:minWidth="160dp"
+            android:text="@string/btn_pause"
+            android:textAllCaps="false"
+            android:textColor="@color/on_surface"
+            android:visibility="gone" />
+
+        <!-- Grabaciones recientes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:text="@string/recents_title"
+                android:textColor="@color/on_surface_variant"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btnAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_icon_button"
+                android:padding="8dp"
+                android:text="@string/btn_all"
+                android:textColor="@color/accent"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/recentGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/tvEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_card"
+            android:gravity="center"
+            android:minHeight="72dp"
+            android:text="@string/no_recordings"
+            android:textColor="@color/on_surface_variant"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <!-- Ajustes -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/settings_title"
+            android:textColor="@color/on_surface_variant"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/settingsCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:paddingTop="6dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="6dp">
+
+            <LinearLayout style="@style/SettingRow">
+
+                <TextView
+                    style="@style/SettingLabel"
+                    android:text="@string/setting_resolution" />
+
+                <Spinner
+                    android:id="@+id/spResolution"
+                    style="@style/SettingSpinner" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingRow">
+
+                <TextView
+                    style="@style/SettingLabel"
+                    android:text="@string/setting_fps" />
+
+                <Spinner
+                    android:id="@+id/spFps"
+                    style="@style/SettingSpinner" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingRow">
+
+                <TextView
+                    style="@style/SettingLabel"
+                    android:text="@string/setting_quality" />
+
+                <Spinner
+                    android:id="@+id/spQuality"
+                    style="@style/SettingSpinner" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingRow">
+
+                <TextView
+                    style="@style/SettingLabel"
+                    android:text="@string/setting_orientation" />
+
+                <Spinner
+                    android:id="@+id/spOrientation"
+                    style="@style/SettingSpinner" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingRow">
+
+                <TextView
+                    style="@style/SettingLabel"
+                    android:text="@string/setting_storage" />
+
+                <Spinner
+                    android:id="@+id/spStorage"
+                    style="@style/SettingSpinner" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingRow">
+
+                <TextView
+                    style="@style/SettingLabel"
+                    android:text="@string/setting_app_audio" />
+
+                <Switch
+                    android:id="@+id/swAppAudio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-6dp"
+                android:layout_marginEnd="4dp"
+                android:paddingBottom="8dp"
+                android:text="@string/setting_app_audio_hint"
+                android:textColor="@color/on_surface_variant"
+                android:textSize="12sp" />
+
+            <LinearLayout style="@style/SettingRow">
+
+                <TextView
+                    style="@style/SettingLabel"
+                    android:text="@string/setting_mic" />
+
+                <Switch
+                    android:id="@+id/swMic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingRow">
+
+                <TextView
+                    style="@style/SettingLabel"
+                    android:text="@string/setting_countdown" />
+
+                <Switch
+                    android:id="@+id/swCountdown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:textColor="@color/on_surface_variant"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tvSavedIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:textColor="@color/on_surface_variant"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tvAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_icon_button"
+            android:padding="12dp"
+            android:text="@string/about_open"
+            android:textColor="@color/accent"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

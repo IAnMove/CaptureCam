@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ana ekran -->
+    <string name="tagline">Ekranınızı kaydedin. Reklamsız.</string>
+    <string name="state_idle">Kayda hazır</string>
+    <string name="state_countdown">Başlıyor…</string>
+    <string name="state_recording">Kaydediliyor</string>
+    <string name="state_paused">Duraklatıldı</string>
+    <string name="btn_record">Kaydet</string>
+    <string name="btn_stop">Durdur</string>
+    <string name="btn_pause">Duraklat</string>
+    <string name="btn_resume">Devam et</string>
+    <string name="btn_cancel">İptal</string>
+    <string name="no_recordings">Henüz kayıt yok</string>
+
+    <!-- Ayarlar -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="setting_resolution">Çözünürlük</string>
+    <string name="setting_fps">Saniyedeki kare sayısı</string>
+    <string name="setting_quality">Kalite</string>
+    <string name="setting_orientation">Ekran yönü</string>
+    <string name="setting_mic">Mikrofonu kaydet</string>
+    <string name="setting_app_audio">Uygulama sesini kaydet</string>
+    <string name="setting_app_audio_hint">Android bunun için mikrofon izni ister, ancak mikrofon kullanılmaz.</string>
+    <string name="setting_countdown">3 saniyelik geri sayım</string>
+
+    <string-array name="resolution_labels">
+        <item>Orijinal</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>Düşük</item>
+        <item>Orta</item>
+        <item>Yüksek</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>Otomatik</item>
+        <item>Dikey</item>
+        <item>Yatay</item>
+    </string-array>
+
+    <!-- Bildirimler -->
+    <string name="channel_recording">Devam eden kayıt</string>
+    <string name="channel_saved">Kaydedilen videolar</string>
+    <string name="notif_countdown_title">Başlıyor: %1$d…</string>
+    <string name="notif_recording_title">Ekran kaydediliyor</string>
+    <string name="notif_paused_title">Kayıt duraklatıldı</string>
+    <string name="notif_saved_title">Kayıt kaydedildi</string>
+    <string name="notif_saved_text">İzlemek için dokunun</string>
+    <string name="notif_nothing_captured">Kayıt çok kısaydı</string>
+
+    <!-- Mesajlar -->
+    <string name="toast_no_consent">Kayıt için ekran yakalama izni gerekli</string>
+    <string name="toast_mic_denied">Mikrofon izni yok: ses olmadan kaydedilecek</string>
+    <string name="toast_error">Kayıt başlatılamadı</string>
+    <string name="toast_no_player">Videoyu oynatacak uygulama bulunamadı</string>
+
+    <!-- Geçmiş ve oynatıcı -->
+    <string name="recents_title">Son kayıtlar</string>
+    <string name="btn_all">Tümünü gör</string>
+    <string name="history_title">Kayıtlar</string>
+    <string name="btn_share">Paylaş</string>
+    <string name="btn_open_with">Şununla aç…</string>
+    <string name="btn_delete">Sil</string>
+    <string name="cd_back">Geri</string>
+    <string name="share_chooser">Kaydı paylaş</string>
+    <string name="delete_title">Bu kayıt silinsin mi?</string>
+    <string name="delete_message">Bu işlem geri alınamaz.</string>
+    <string name="toast_deleted">Kayıt silindi</string>
+    <string name="toast_delete_failed">Silinemedi</string>
+    <string name="toast_play_failed">Bu video oynatılamıyor</string>
+
+    <!-- Klasör ve özet -->
+    <string name="setting_storage">Kaydetme yeri</string>
+    <string-array name="storage_labels">
+        <item>Filmler</item>
+        <item>İndirilenler</item>
+    </string-array>
+    <string name="saved_in_movies">Filmler/CaptureCam klasörüne kaydedilir</string>
+    <string name="saved_in_downloads">İndirilenler/CaptureCam klasörüne kaydedilir</string>
+    <string name="summary_resolution">%1$d × %2$d çözünürlükte kaydedilecek</string>
+
+    <!-- Ekrandaki geri sayım izni -->
+    <string name="overlay_title">Ekranda geri sayım</string>
+    <string name="overlay_message">Kaydedeceğiniz uygulamanın üzerinde 3, 2, 1 geri sayımını göstermek için CaptureCam\'in “Diğer uygulamaların üzerinde göster” iznine ihtiyacı var. İzin olmadan geri sayım yalnızca bildirimde görünür.</string>
+    <string name="overlay_grant">İzin ver</string>
+    <string name="overlay_skip">Şimdi değil</string>
+
+    <!-- Hakkında -->
+    <string name="about_open">CaptureCam hakkında</string>
+    <string name="about_title">Hakkında</string>
+    <string name="about_version">Sürüm %1$s</string>
+    <string name="about_description">Reklamsız, hesapsız ve internet erişimi olmayan ücretsiz bir ekran kaydedici. Kayıtlarınız telefonunuzdan hiç çıkmaz.</string>
+    <string name="about_source">Kaynak kodu</string>
+    <string name="about_more">Geliştiricinin diğer uygulamaları</string>
+    <string name="about_privacy">Gizlilik politikası</string>
+    <string name="about_x">X\'te takip edin</string>
+    <string name="toast_no_browser">Bu bağlantıyı açabilecek uygulama yok</string>
+
+    <string name="tile_label">Ekranı kaydet</string>
+    <string name="tile_stop">Durdur</string>
+</resources>

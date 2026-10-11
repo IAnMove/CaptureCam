@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Màn hình chính -->
+    <string name="tagline">Quay màn hình. Không quảng cáo.</string>
+    <string name="state_idle">Sẵn sàng quay</string>
+    <string name="state_countdown">Đang bắt đầu…</string>
+    <string name="state_recording">Đang quay</string>
+    <string name="state_paused">Đã tạm dừng</string>
+    <string name="btn_record">Quay</string>
+    <string name="btn_stop">Dừng</string>
+    <string name="btn_pause">Tạm dừng</string>
+    <string name="btn_resume">Tiếp tục</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="no_recordings">Chưa có bản ghi nào</string>
+
+    <!-- Cài đặt -->
+    <string name="settings_title">Cài đặt</string>
+    <string name="setting_resolution">Độ phân giải</string>
+    <string name="setting_fps">Số khung hình/giây</string>
+    <string name="setting_quality">Chất lượng</string>
+    <string name="setting_orientation">Hướng màn hình</string>
+    <string name="setting_mic">Ghi âm từ micrô</string>
+    <string name="setting_app_audio">Ghi âm thanh của ứng dụng</string>
+    <string name="setting_app_audio_hint">Android yêu cầu quyền micrô cho tính năng này, nhưng micrô không được sử dụng.</string>
+    <string name="setting_countdown">Đếm ngược 3 giây</string>
+
+    <string-array name="resolution_labels">
+        <item>Gốc</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>Thấp</item>
+        <item>Trung bình</item>
+        <item>Cao</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>Tự động</item>
+        <item>Dọc</item>
+        <item>Ngang</item>
+    </string-array>
+
+    <!-- Thông báo -->
+    <string name="channel_recording">Đang quay</string>
+    <string name="channel_saved">Bản ghi đã lưu</string>
+    <string name="notif_countdown_title">Bắt đầu sau %1$d…</string>
+    <string name="notif_recording_title">Đang quay màn hình</string>
+    <string name="notif_paused_title">Đã tạm dừng quay</string>
+    <string name="notif_saved_title">Đã lưu bản ghi</string>
+    <string name="notif_saved_text">Chạm để xem</string>
+    <string name="notif_nothing_captured">Bản ghi quá ngắn</string>
+
+    <!-- Tin nhắn -->
+    <string name="toast_no_consent">Cần có quyền quay màn hình để bắt đầu</string>
+    <string name="toast_mic_denied">Chưa cấp quyền micrô: sẽ quay không có âm thanh</string>
+    <string name="toast_error">Không thể bắt đầu quay</string>
+    <string name="toast_no_player">Không có ứng dụng nào để phát video</string>
+
+    <!-- Lịch sử và trình phát -->
+    <string name="recents_title">Gần đây</string>
+    <string name="btn_all">Xem tất cả</string>
+    <string name="history_title">Bản ghi</string>
+    <string name="btn_share">Chia sẻ</string>
+    <string name="btn_open_with">Mở bằng…</string>
+    <string name="btn_delete">Xóa</string>
+    <string name="cd_back">Quay lại</string>
+    <string name="share_chooser">Chia sẻ bản ghi</string>
+    <string name="delete_title">Xóa bản ghi này?</string>
+    <string name="delete_message">Không thể hoàn tác.</string>
+    <string name="toast_deleted">Đã xóa bản ghi</string>
+    <string name="toast_delete_failed">Không thể xóa</string>
+    <string name="toast_play_failed">Không thể phát video này</string>
+
+    <!-- Thư mục và tóm tắt -->
+    <string name="setting_storage">Lưu vào</string>
+    <string-array name="storage_labels">
+        <item>Phim</item>
+        <item>Tải xuống</item>
+    </string-array>
+    <string name="saved_in_movies">Lưu vào Phim/CaptureCam</string>
+    <string name="saved_in_downloads">Lưu vào Tải xuống/CaptureCam</string>
+    <string name="summary_resolution">Sẽ quay ở %1$d × %2$d</string>
+
+    <!-- Quyền đếm ngược trên màn hình -->
+    <string name="overlay_title">Đếm ngược trên màn hình</string>
+    <string name="overlay_message">Để hiện 3, 2, 1 trên ứng dụng bạn sắp quay, CaptureCam cần quyền “Hiển thị trên các ứng dụng khác”. Nếu không có quyền này, bộ đếm ngược chỉ hiện trong thông báo.</string>
+    <string name="overlay_grant">Cấp quyền</string>
+    <string name="overlay_skip">Để sau</string>
+
+    <!-- Giới thiệu -->
+    <string name="about_open">Giới thiệu CaptureCam</string>
+    <string name="about_title">Giới thiệu</string>
+    <string name="about_version">Phiên bản %1$s</string>
+    <string name="about_description">Ứng dụng quay màn hình miễn phí, không quảng cáo, không tài khoản và không truy cập internet. Bản ghi của bạn không bao giờ rời khỏi điện thoại.</string>
+    <string name="about_source">Mã nguồn</string>
+    <string name="about_more">Ứng dụng khác của tác giả</string>
+    <string name="about_privacy">Chính sách quyền riêng tư</string>
+    <string name="about_x">Theo dõi trên X</string>
+    <string name="toast_no_browser">Không có ứng dụng nào mở được liên kết này</string>
+
+    <string name="tile_label">Quay màn hình</string>
+    <string name="tile_stop">Dừng</string>
+</resources>

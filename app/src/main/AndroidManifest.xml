@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Sin permiso INTERNET: la app no puede conectarse a la red, ni mostrar anuncios. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Solo para mostrar el 3, 2, 1 sobre otras apps; la app sigue sin acceso a la red. -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:localeConfig="@xml/locales_config"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CaptureCam">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+
+        <!-- configChanges: el vídeo sigue sonando al girar el móvil en vez de reiniciarse. -->
+        <activity
+            android:name=".PlayerActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden"
+            android:exported="false"
+            android:theme="@style/Theme.CaptureCam.Player" />
+
+        <!-- Actividad transparente que pide permisos y el consentimiento de captura.
+             La usan tanto el botón de la app como el ajuste rápido. -->
+        <activity
+            android:name=".CaptureActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:taskAffinity=""
+            android:theme="@style/Theme.CaptureCam.Transparent" />
+
+        <service
+            android:name=".RecorderService"
+            android:exported="false"
+            android:foregroundServiceType="mediaProjection|microphone" />
+
+        <service
+            android:name=".RecordingTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_tile"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主屏幕 -->
+    <string name="tagline">录制屏幕，无广告。</string>
+    <string name="state_idle">准备录制</string>
+    <string name="state_countdown">即将开始…</string>
+    <string name="state_recording">正在录制</string>
+    <string name="state_paused">已暂停</string>
+    <string name="btn_record">录制</string>
+    <string name="btn_stop">停止</string>
+    <string name="btn_pause">暂停</string>
+    <string name="btn_resume">继续</string>
+    <string name="btn_cancel">取消</string>
+    <string name="no_recordings">暂无录屏</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="setting_resolution">分辨率</string>
+    <string name="setting_fps">帧率</string>
+    <string name="setting_quality">画质</string>
+    <string name="setting_orientation">屏幕方向</string>
+    <string name="setting_mic">录制麦克风声音</string>
+    <string name="setting_app_audio">录制应用声音</string>
+    <string name="setting_app_audio_hint">Android 要求为此授予麦克风权限，但不会使用麦克风。</string>
+    <string name="setting_countdown">3 秒倒计时</string>
+
+    <string-array name="resolution_labels">
+        <item>原始</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>自动</item>
+        <item>竖屏</item>
+        <item>横屏</item>
+    </string-array>
+
+    <!-- 通知 -->
+    <string name="channel_recording">正在录制</string>
+    <string name="channel_saved">已保存的录屏</string>
+    <string name="notif_countdown_title">倒计时 %1$d…</string>
+    <string name="notif_recording_title">正在录制屏幕</string>
+    <string name="notif_paused_title">录制已暂停</string>
+    <string name="notif_saved_title">录屏已保存</string>
+    <string name="notif_saved_text">点按即可观看</string>
+    <string name="notif_nothing_captured">录制时间太短</string>
+
+    <!-- 提示信息 -->
+    <string name="toast_no_consent">需要授予屏幕录制权限才能录制</string>
+    <string name="toast_mic_denied">没有麦克风权限，将录制无声视频</string>
+    <string name="toast_error">无法开始录制</string>
+    <string name="toast_no_player">找不到可播放该视频的应用</string>
+
+    <!-- 历史记录和播放器 -->
+    <string name="recents_title">最近</string>
+    <string name="btn_all">查看全部</string>
+    <string name="history_title">录屏</string>
+    <string name="btn_share">分享</string>
+    <string name="btn_open_with">打开方式…</string>
+    <string name="btn_delete">删除</string>
+    <string name="cd_back">返回</string>
+    <string name="share_chooser">分享录屏</string>
+    <string name="delete_title">要删除这段录屏吗？</string>
+    <string name="delete_message">此操作无法撤销。</string>
+    <string name="toast_deleted">录屏已删除</string>
+    <string name="toast_delete_failed">无法删除</string>
+    <string name="toast_play_failed">无法播放此视频</string>
+
+    <!-- 文件夹和摘要 -->
+    <string name="setting_storage">保存位置</string>
+    <string-array name="storage_labels">
+        <item>电影</item>
+        <item>下载内容</item>
+    </string-array>
+    <string name="saved_in_movies">将保存到“电影/CaptureCam”</string>
+    <string name="saved_in_downloads">将保存到“下载内容/CaptureCam”</string>
+    <string name="summary_resolution">将以 %1$d × %2$d 录制</string>
+
+    <!-- 屏幕倒计时权限 -->
+    <string name="overlay_title">屏幕倒计时</string>
+    <string name="overlay_message">要在即将录制的应用上方显示 3、2、1 倒计时，CaptureCam 需要“显示在其他应用的上层”权限。如果不授予，倒计时将只显示在通知中。</string>
+    <string name="overlay_grant">授予权限</string>
+    <string name="overlay_skip">暂不</string>
+
+    <!-- 关于 -->
+    <string name="about_open">关于 CaptureCam</string>
+    <string name="about_title">关于</string>
+    <string name="about_version">版本 %1$s</string>
+    <string name="about_description">一款免费的录屏应用，没有广告，无需账号，也不联网。你的录屏内容绝不会离开手机。</string>
+    <string name="about_source">源代码</string>
+    <string name="about_more">开发者的更多应用</string>
+    <string name="about_privacy">隐私政策</string>
+    <string name="about_x">在 X 上关注</string>
+    <string name="toast_no_browser">没有可打开此链接的应用</string>
+
+    <string name="tile_label">录制屏幕</string>
+    <string name="tile_stop">停止</string>
+</resources>

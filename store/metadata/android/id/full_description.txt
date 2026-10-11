@@ -1,0 +1,32 @@
+CaptureCam adalah perekam layar yang sederhana dan gratis, tanpa iklan, tanpa akun, dan tanpa akses internet. Rekamanmu tidak pernah keluar dari ponselmu.
+
+REKAM SESUAI KEINGINANMU
+• Rekam seluruh layar atau hanya satu aplikasi
+• Jeda dan lanjutkan kapan saja
+• Hitung mundur 3-2-1 di layar (opsional) agar kamu bisa bersiap
+• Ubin Setelan Cepat untuk memulai dan menghentikan rekaman tanpa membuka aplikasi
+• Kontrol langsung di notifikasi
+
+VIDEO SESUAI SELERAMU
+• Pilih resolusi (hingga ukuran asli layarmu), frame per detik, dan kualitas
+• Orientasi potret, lanskap, atau otomatis
+• Merekam suara aplikasi (aktif secara default) dan, jika mau, mikrofon
+• Disimpan sebagai file MP4 standar di Film atau Download, siap dibagikan
+
+GALERI BAWAAN
+• Telusuri rekaman terbaru dalam tampilan kisi yang rapi
+• Pratinjau langsung di dalam aplikasi
+• Bagikan, buka dengan aplikasi lain, atau hapus hanya dengan satu ketukan
+
+PRIVASI SEJAK AWAL
+• Tanpa iklan dan tanpa pelacak
+• Aplikasi ini bahkan tidak memiliki izin internet, jadi tidak bisa mengirim apa pun ke mana pun
+• Gratis dan open source
+
+PERLU DIKETAHUI
+• Membutuhkan Android 11 atau yang lebih baru
+• Suara aplikasi bergantung pada tiap aplikasi: aplikasi yang memblokir perekaman audio dan konten yang dilindungi terekam tanpa suara
+• Aplikasi yang memblokir tangkapan layar (misalnya sebagian aplikasi perbankan atau video) akan tampak hitam
+• Izin opsional “Tampilkan di atas aplikasi lain” hanya digunakan untuk menampilkan hitung mundur di layar
+
+Ada pertanyaan atau ide? Temukan kode sumber dan info kontak di dalam aplikasi, pada “Tentang CaptureCam”.

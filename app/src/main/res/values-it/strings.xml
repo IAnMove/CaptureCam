@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Schermata principale -->
+    <string name="tagline">Registra lo schermo. Senza pubblicità.</string>
+    <string name="state_idle">Pronto per registrare</string>
+    <string name="state_countdown">Avvio…</string>
+    <string name="state_recording">Registrazione</string>
+    <string name="state_paused">In pausa</string>
+    <string name="btn_record">Registra</string>
+    <string name="btn_stop">Interrompi</string>
+    <string name="btn_pause">Pausa</string>
+    <string name="btn_resume">Riprendi</string>
+    <string name="btn_cancel">Annulla</string>
+    <string name="no_recordings">Ancora nessuna registrazione</string>
+
+    <!-- Impostazioni -->
+    <string name="settings_title">Impostazioni</string>
+    <string name="setting_resolution">Risoluzione</string>
+    <string name="setting_fps">Fotogrammi al secondo</string>
+    <string name="setting_quality">Qualità</string>
+    <string name="setting_orientation">Orientamento</string>
+    <string name="setting_mic">Registra il microfono</string>
+    <string name="setting_app_audio">Registra l\'audio delle app</string>
+    <string name="setting_app_audio_hint">Android richiede il permesso del microfono per questa funzione, ma il microfono non viene usato.</string>
+    <string name="setting_countdown">Conto alla rovescia di 3 s</string>
+
+    <string-array name="resolution_labels">
+        <item>Originale</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>Bassa</item>
+        <item>Media</item>
+        <item>Alta</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>Automatico</item>
+        <item>Verticale</item>
+        <item>Orizzontale</item>
+    </string-array>
+
+    <!-- Notifiche -->
+    <string name="channel_recording">Registrazione in corso</string>
+    <string name="channel_saved">Registrazioni salvate</string>
+    <string name="notif_countdown_title">Si parte tra %1$d…</string>
+    <string name="notif_recording_title">Registrazione dello schermo</string>
+    <string name="notif_paused_title">Registrazione in pausa</string>
+    <string name="notif_saved_title">Registrazione salvata</string>
+    <string name="notif_saved_text">Tocca per guardarla</string>
+    <string name="notif_nothing_captured">La registrazione era troppo breve</string>
+
+    <!-- Messaggi -->
+    <string name="toast_no_consent">Per registrare serve l\'autorizzazione all\'acquisizione dello schermo</string>
+    <string name="toast_mic_denied">Microfono non autorizzato: registrazione senza audio</string>
+    <string name="toast_error">Impossibile avviare la registrazione</string>
+    <string name="toast_no_player">Nessuna app trovata per riprodurre il video</string>
+
+    <!-- Cronologia e player -->
+    <string name="recents_title">Recenti</string>
+    <string name="btn_all">Vedi tutte</string>
+    <string name="history_title">Registrazioni</string>
+    <string name="btn_share">Condividi</string>
+    <string name="btn_open_with">Apri con…</string>
+    <string name="btn_delete">Elimina</string>
+    <string name="cd_back">Indietro</string>
+    <string name="share_chooser">Condividi registrazione</string>
+    <string name="delete_title">Eliminare questa registrazione?</string>
+    <string name="delete_message">L\'operazione non può essere annullata.</string>
+    <string name="toast_deleted">Registrazione eliminata</string>
+    <string name="toast_delete_failed">Impossibile eliminare</string>
+    <string name="toast_play_failed">Impossibile riprodurre questo video</string>
+
+    <!-- Cartella e riepilogo -->
+    <string name="setting_storage">Salva in</string>
+    <string-array name="storage_labels">
+        <item>Film</item>
+        <item>Download</item>
+    </string-array>
+    <string name="saved_in_movies">Salvate in Film/CaptureCam</string>
+    <string name="saved_in_downloads">Salvate in Download/CaptureCam</string>
+    <string name="summary_resolution">Registrerà a %1$d × %2$d</string>
+
+    <!-- Autorizzazione per il conto alla rovescia sullo schermo -->
+    <string name="overlay_title">Conto alla rovescia sullo schermo</string>
+    <string name="overlay_message">Per mostrare il 3, 2, 1 sopra l\'app che stai per registrare, CaptureCam ha bisogno dell\'autorizzazione «Mostra sopra altre app». Senza, il conto alla rovescia compare solo nella notifica.</string>
+    <string name="overlay_grant">Concedi autorizzazione</string>
+    <string name="overlay_skip">Non ora</string>
+
+    <!-- Informazioni -->
+    <string name="about_open">Informazioni su CaptureCam</string>
+    <string name="about_title">Informazioni</string>
+    <string name="about_version">Versione %1$s</string>
+    <string name="about_description">Un registratore dello schermo gratuito, senza pubblicità, senza account e senza accesso a internet. Le tue registrazioni non lasciano mai il telefono.</string>
+    <string name="about_source">Codice sorgente</string>
+    <string name="about_more">Altre app dello sviluppatore</string>
+    <string name="about_privacy">Informativa sulla privacy</string>
+    <string name="about_x">Seguici su X</string>
+    <string name="toast_no_browser">Nessuna app può aprire questo link</string>
+
+    <string name="tile_label">Registra schermo</string>
+    <string name="tile_stop">Interrompi</string>
+</resources>

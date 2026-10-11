@@ -1,0 +1,32 @@
+CaptureCam; reklamsız, hesapsız ve internet erişimi olmadan çalışan basit ve ücretsiz bir ekran kaydedicidir. Kayıtlarınız telefonunuzdan hiç çıkmaz.
+
+İSTEDİĞİNİZİ KAYDEDİN
+• Tüm ekranı veya yalnızca tek bir uygulamayı kaydedin
+• İstediğiniz zaman duraklatın ve devam edin
+• Hazırlanabilmeniz için isteğe bağlı, ekranda 3-2-1 geri sayımı
+• Uygulamayı açmadan kaydı başlatıp durdurmak için Hızlı Ayarlar kutucuğu
+• Kontroller doğrudan bildirimde
+
+VİDEOLARINIZ, SİZİN TARZINIZDA
+• Çözünürlüğü (ekranınızın yerel boyutuna kadar), saniyedeki kare sayısını ve kaliteyi seçin
+• Dikey, yatay veya otomatik ekran yönü
+• Uygulama sesini kaydeder (varsayılan olarak açık) ve isteğe bağlı olarak mikrofonu
+• Standart MP4 dosyaları olarak Filmler veya İndirilenler klasörüne kaydedilir, paylaşıma hazır
+
+YERLEŞİK GALERİ
+• Son kayıtlarınıza sade bir ızgarada göz atın
+• Uygulamanın içinde önizleyin
+• Tek dokunuşla paylaşın, başka bir uygulamayla açın veya silin
+
+TASARIMDAN GİZLİLİK
+• Reklam ve izleyici yok
+• Uygulamada internet izni bile yok, bu yüzden hiçbir yere hiçbir şey gönderemez
+• Ücretsiz ve açık kaynaklı
+
+BİLMENİZ GEREKENLER
+• Android 11 veya üzeri gerekir
+• Uygulama sesi her uygulamaya bağlıdır: ses yakalamayı engelleyen uygulamalar ve korumalı içerikler sessiz kaydedilir
+• Ekran yakalamayı engelleyen uygulamalar (bazı bankacılık veya video uygulamaları) siyah görünür
+• İsteğe bağlı “Diğer uygulamaların üzerinde göster” izni yalnızca ekrandaki geri sayımı göstermek için kullanılır
+
+Sorularınız veya fikirleriniz mi var? Kaynak kodunu ve iletişim bilgilerini uygulamanın içinde “CaptureCam hakkında” bölümünde bulabilirsiniz.

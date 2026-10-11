@@ -1,0 +1,32 @@
+CaptureCam is een eenvoudige, gratis schermrecorder zonder advertenties, zonder accounts en zonder internettoegang. Je opnamen verlaten je telefoon nooit.
+
+NEEM OP WAT JE WILT
+• Neem je hele scherm op of alleen één app
+• Pauzeer en hervat wanneer je wilt
+• Optioneel aftellen (3, 2, 1) op het scherm, zodat je je kunt voorbereiden
+• Tegel in Snelle instellingen om te starten en te stoppen zonder de app te openen
+• Bediening direct in de melding
+
+JOUW VIDEO’S, JOUW MANIER
+• Kies de resolutie (tot de oorspronkelijke schermgrootte), frames per seconde en kwaliteit
+• Staande, liggende of automatische schermstand
+• Neemt het geluid van apps op (standaard aan) en optioneel de microfoon
+• Opgeslagen als standaard MP4-bestanden in Films of Downloads, klaar om te delen
+
+INGEBOUWDE GALERIJ
+• Blader door je recente opnamen in een overzichtelijk raster
+• Bekijk ze vooraf in de app
+• Deel, open met een andere app of verwijder met één tik
+
+PRIVACY VOOROP
+• Geen advertenties en geen trackers
+• De app heeft zelfs geen internetmachtiging, dus er kan niets naar buiten worden verstuurd
+• Gratis en open source
+
+HANDIG OM TE WETEN
+• Vereist Android 11 of nieuwer
+• Het app-geluid hangt van elke app af: apps die geluidsopname blokkeren en beschermde inhoud worden zonder geluid opgenomen
+• Apps die schermopname blokkeren (zoals sommige bank- of video-apps) verschijnen zwart
+• De optionele toestemming “Weergeven vóór andere apps” wordt alleen gebruikt om het aftellen op het scherm te tonen
+
+Vragen of ideeën? Je vindt de broncode en contactgegevens in de app, onder “Over CaptureCam”.

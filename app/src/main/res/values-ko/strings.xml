@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 메인 화면 -->
+    <string name="tagline">화면 녹화, 광고 없이.</string>
+    <string name="state_idle">녹화 준비 완료</string>
+    <string name="state_countdown">시작 중…</string>
+    <string name="state_recording">녹화 중</string>
+    <string name="state_paused">일시중지됨</string>
+    <string name="btn_record">녹화</string>
+    <string name="btn_stop">중지</string>
+    <string name="btn_pause">일시중지</string>
+    <string name="btn_resume">재개</string>
+    <string name="btn_cancel">취소</string>
+    <string name="no_recordings">아직 녹화본이 없습니다</string>
+
+    <!-- 설정 -->
+    <string name="settings_title">설정</string>
+    <string name="setting_resolution">해상도</string>
+    <string name="setting_fps">초당 프레임 수</string>
+    <string name="setting_quality">화질</string>
+    <string name="setting_orientation">화면 방향</string>
+    <string name="setting_mic">마이크 소리 녹음</string>
+    <string name="setting_app_audio">앱 소리 녹음</string>
+    <string name="setting_app_audio_hint">이 기능에는 Android가 마이크 권한을 요구하지만 마이크는 사용하지 않습니다.</string>
+    <string name="setting_countdown">3초 카운트다운</string>
+
+    <string-array name="resolution_labels">
+        <item>원본</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>낮음</item>
+        <item>보통</item>
+        <item>높음</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>자동</item>
+        <item>세로</item>
+        <item>가로</item>
+    </string-array>
+
+    <!-- 알림 -->
+    <string name="channel_recording">녹화 진행 중</string>
+    <string name="channel_saved">저장된 녹화본</string>
+    <string name="notif_countdown_title">시작까지 %1$d…</string>
+    <string name="notif_recording_title">화면 녹화 중</string>
+    <string name="notif_paused_title">녹화 일시중지됨</string>
+    <string name="notif_saved_title">녹화본 저장됨</string>
+    <string name="notif_saved_text">탭하여 보기</string>
+    <string name="notif_nothing_captured">녹화 시간이 너무 짧습니다</string>
+
+    <!-- 메시지 -->
+    <string name="toast_no_consent">녹화하려면 화면 캡처 권한이 필요합니다</string>
+    <string name="toast_mic_denied">마이크 권한이 없어 소리 없이 녹화합니다</string>
+    <string name="toast_error">녹화를 시작할 수 없습니다</string>
+    <string name="toast_no_player">동영상을 재생할 앱을 찾을 수 없습니다</string>
+
+    <!-- 기록 및 플레이어 -->
+    <string name="recents_title">최근</string>
+    <string name="btn_all">모두 보기</string>
+    <string name="history_title">녹화본</string>
+    <string name="btn_share">공유</string>
+    <string name="btn_open_with">다음으로 열기…</string>
+    <string name="btn_delete">삭제</string>
+    <string name="cd_back">뒤로</string>
+    <string name="share_chooser">녹화본 공유</string>
+    <string name="delete_title">이 녹화본을 삭제할까요?</string>
+    <string name="delete_message">이 작업은 되돌릴 수 없습니다.</string>
+    <string name="toast_deleted">녹화본을 삭제했습니다</string>
+    <string name="toast_delete_failed">삭제할 수 없습니다</string>
+    <string name="toast_play_failed">이 동영상은 재생할 수 없습니다</string>
+
+    <!-- 폴더 및 요약 -->
+    <string name="setting_storage">저장 위치</string>
+    <string-array name="storage_labels">
+        <item>영화</item>
+        <item>다운로드</item>
+    </string-array>
+    <string name="saved_in_movies">영화/CaptureCam에 저장됩니다</string>
+    <string name="saved_in_downloads">다운로드/CaptureCam에 저장됩니다</string>
+    <string name="summary_resolution">%1$d × %2$d 해상도로 녹화됩니다</string>
+
+    <!-- 화면 카운트다운 권한 -->
+    <string name="overlay_title">화면 카운트다운</string>
+    <string name="overlay_message">녹화할 앱 위에 3, 2, 1을 표시하려면 CaptureCam에 “다른 앱 위에 표시” 권한이 필요합니다. 권한이 없으면 카운트다운은 알림에만 표시됩니다.</string>
+    <string name="overlay_grant">권한 허용</string>
+    <string name="overlay_skip">나중에</string>
+
+    <!-- 앱 정보 -->
+    <string name="about_open">CaptureCam 정보</string>
+    <string name="about_title">정보</string>
+    <string name="about_version">버전 %1$s</string>
+    <string name="about_description">광고, 계정, 인터넷 접속이 없는 무료 화면 녹화 앱입니다. 녹화한 영상은 휴대전화 밖으로 나가지 않습니다.</string>
+    <string name="about_source">소스 코드</string>
+    <string name="about_more">개발자의 다른 앱</string>
+    <string name="about_privacy">개인정보 처리방침</string>
+    <string name="about_x">X에서 팔로우</string>
+    <string name="toast_no_browser">이 링크를 열 수 있는 앱이 없습니다</string>
+
+    <string name="tile_label">화면 녹화</string>
+    <string name="tile_stop">중지</string>
+</resources>
