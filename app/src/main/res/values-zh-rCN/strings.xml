@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">无法删除</string>
     <string name="toast_play_failed">无法播放此视频</string>
 
+    <string name="btn_compress">压缩</string>
+    <string name="compress_title">压缩此视频？</string>
+    <string name="compress_message">原文件：%1$s。\n\n会在原文件旁保存一份更小的副本。原文件不会被删除，不需要时请自行删除。\n\n处理期间请保持应用打开，可能需要几分钟。</string>
+    <string name="compress_progress">正在压缩… %1$d%%</string>
+    <string name="compress_done_title">已保存副本</string>
+    <string name="compress_done_message">%1$s → %2$s。原文件仍在列表中，不需要时请自行删除。</string>
+    <string name="compress_no_gain">此视频已经很小，无法生成更小的副本。未保存任何内容。</string>
+    <string name="compress_failed">无法压缩此视频</string>
+    <string name="compress_cancelled">已取消压缩</string>
+
     <!-- 文件夹和摘要 -->
     <string name="setting_storage">保存位置</string>
     <string-array name="storage_labels">

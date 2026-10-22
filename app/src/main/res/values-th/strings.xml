@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">ลบไม่สำเร็จ</string>
     <string name="toast_play_failed">เล่นวิดีโอนี้ไม่ได้</string>
 
+    <string name="btn_compress">บีบอัด</string>
+    <string name="compress_title">บีบอัดวิดีโอนี้ไหม</string>
+    <string name="compress_message">ต้นฉบับ: %1$s\n\nระบบจะบันทึกสำเนาที่เล็กกว่าไว้ข้างต้นฉบับ ต้นฉบับจะไม่ถูกลบ: หากไม่ต้องการแล้วให้ลบเอง\n\nโปรดเปิดแอปค้างไว้ระหว่างทำงาน อาจใช้เวลาสองสามนาที</string>
+    <string name="compress_progress">กำลังบีบอัด… %1$d%%</string>
+    <string name="compress_done_title">บันทึกสำเนาแล้ว</string>
+    <string name="compress_done_message">%1$s → %2$s ต้นฉบับยังอยู่ในรายการ: หากไม่ต้องการแล้วให้ลบเอง</string>
+    <string name="compress_no_gain">วิดีโอนี้มีขนาดเล็กอยู่แล้ว จึงสร้างสำเนาที่เล็กกว่านี้ไม่ได้ ไม่มีสิ่งใดถูกบันทึก</string>
+    <string name="compress_failed">บีบอัดวิดีโอนี้ไม่ได้</string>
+    <string name="compress_cancelled">ยกเลิกการบีบอัดแล้ว</string>
+
     <!-- โฟลเดอร์และสรุป -->
     <string name="setting_storage">บันทึกไปที่</string>
     <string-array name="storage_labels">

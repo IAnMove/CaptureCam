@@ -34,6 +34,9 @@ class MainActivity : Activity() {
     private lateinit var settingsViews: List<View>
 
     private val handler = Handler(Looper.getMainLooper())
+    private val compressUi = CompressUi(this) { renderRecents() }
+    private var recentsRetries = 0
+    private val recentsRetry = Runnable { renderRecents() }
     private val ticker = object : Runnable {
         override fun run() {
             render()
@@ -115,8 +118,12 @@ class MainActivity : Activity() {
             handler.removeCallbacks(ticker)
             if (RecorderState.phase == Phase.RECORDING) handler.post(ticker)
             // Al terminar una grabación aparece en Recientes.
-            if (RecorderState.phase == Phase.IDLE) renderRecents()
+            if (RecorderState.phase == Phase.IDLE) {
+                recentsRetries = 0
+                renderRecents()
+            }
         }
+        compressUi.attach()
     }
 
     override fun onResume() {
@@ -129,7 +136,9 @@ class MainActivity : Activity() {
 
     override fun onStop() {
         RecorderState.listener = null
+        compressUi.detach()
         handler.removeCallbacks(ticker)
+        handler.removeCallbacks(recentsRetry)
         super.onStop()
     }
 
@@ -224,6 +233,11 @@ class MainActivity : Activity() {
     /** Hasta 6 grabaciones recientes en filas de 3. */
     private fun renderRecents() {
         val recordings = Recordings.list(this)
+        // Si la que acaba de terminar todavía no sale en el listado de MediaStore, se vuelve a mirar enseguida.
+        handler.removeCallbacks(recentsRetry)
+        if (RecorderState.lastSaved != null && recentsRetries++ < MAX_RECENTS_RETRIES) {
+            handler.postDelayed(recentsRetry, RECENTS_RETRY_MS)
+        }
         recentGrid.removeAllViews()
         tvEmpty.visibility = if (recordings.isEmpty()) View.VISIBLE else View.GONE
         btnAll.visibility = if (recordings.isEmpty()) View.GONE else View.VISIBLE
@@ -235,6 +249,10 @@ class MainActivity : Activity() {
                 val cell = rowItems.getOrNull(col)?.let { recording ->
                     RecordingCell.bind(this, row, null, recording).apply {
                         setOnClickListener { startActivity(PlayerActivity.intent(this@MainActivity, recording.uri)) }
+                        setOnLongClickListener {
+                            Recordings.showActions(this@MainActivity, recording) { renderRecents() }
+                            true
+                        }
                     }
                 } ?: View(this) // hueco para que la última fila mantenga el ancho de las celdas
                 row.addView(cell, LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
@@ -249,6 +267,8 @@ class MainActivity : Activity() {
     companion object {
         private const val COLUMNS = 3
         private const val RECENT_COUNT = 6
+        private const val RECENTS_RETRY_MS = 500L
+        private const val MAX_RECENTS_RETRIES = 10
 
         private var instance: WeakReference<MainActivity>? = null
 

@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">Não foi possível excluir</string>
     <string name="toast_play_failed">Não é possível reproduzir este vídeo</string>
 
+    <string name="btn_compress">Comprimir</string>
+    <string name="compress_title">Comprimir este vídeo?</string>
+    <string name="compress_message">Original: %1$s.\n\nUma cópia menor será salva ao lado dele. O original NÃO é excluído: exclua você mesmo se não precisar dele.\n\nMantenha o app aberto enquanto ele trabalha; pode levar alguns minutos.</string>
+    <string name="compress_progress">Comprimindo… %1$d%%</string>
+    <string name="compress_done_title">Cópia salva</string>
+    <string name="compress_done_message">%1$s → %2$s. O original continua na sua lista: exclua você mesmo se não precisar dele.</string>
+    <string name="compress_no_gain">Este vídeo já é pequeno, então não é possível criar uma cópia menor. Nada foi salvo.</string>
+    <string name="compress_failed">Não foi possível comprimir este vídeo</string>
+    <string name="compress_cancelled">Compressão cancelada</string>
+
     <!-- Pasta e resumo -->
     <string name="setting_storage">Salvar em</string>
     <string-array name="storage_labels">

@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">無法刪除</string>
     <string name="toast_play_failed">無法播放這部影片</string>
 
+    <string name="btn_compress">壓縮</string>
+    <string name="compress_title">要壓縮這部影片嗎？</string>
+    <string name="compress_message">原始檔案：%1$s。\n\n會在原始檔案旁儲存一份更小的副本。原始檔案不會被刪除，不需要時請自行刪除。\n\n處理期間請保持應用程式開啟，可能需要幾分鐘。</string>
+    <string name="compress_progress">正在壓縮… %1$d%%</string>
+    <string name="compress_done_title">已儲存副本</string>
+    <string name="compress_done_message">%1$s → %2$s。原始檔案仍在清單中，不需要時請自行刪除。</string>
+    <string name="compress_no_gain">這部影片已經很小，無法產生更小的副本。未儲存任何內容。</string>
+    <string name="compress_failed">無法壓縮這部影片</string>
+    <string name="compress_cancelled">已取消壓縮</string>
+
     <!-- 資料夾與摘要 -->
     <string name="setting_storage">儲存位置</string>
     <string-array name="storage_labels">

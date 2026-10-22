@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">Impossible de supprimer</string>
     <string name="toast_play_failed">Impossible de lire cette vidéo</string>
 
+    <string name="btn_compress">Compresser</string>
+    <string name="compress_title">Compresser cette vidéo ?</string>
+    <string name="compress_message">Original : %1$s.\n\nUne copie plus petite est enregistrée à côté. L\'original n\'est PAS supprimé : supprimez-le vous-même si vous n\'en avez pas besoin.\n\nLaissez l\'appli ouverte pendant le traitement ; cela peut prendre quelques minutes.</string>
+    <string name="compress_progress">Compression… %1$d%%</string>
+    <string name="compress_done_title">Copie enregistrée</string>
+    <string name="compress_done_message">%1$s → %2$s. L\'original est toujours dans la liste : supprimez-le vous-même si vous n\'en avez pas besoin.</string>
+    <string name="compress_no_gain">Cette vidéo est déjà légère, une copie plus petite est donc impossible. Rien n\'a été enregistré.</string>
+    <string name="compress_failed">Impossible de compresser cette vidéo</string>
+    <string name="compress_cancelled">Compression annulée</string>
+
     <!-- Dossier et résumé -->
     <string name="setting_storage">Enregistrer dans</string>
     <string-array name="storage_labels">

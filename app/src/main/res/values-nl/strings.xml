@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">Verwijderen mislukt</string>
     <string name="toast_play_failed">Deze video kan niet worden afgespeeld</string>
 
+    <string name="btn_compress">Comprimeren</string>
+    <string name="compress_title">Deze video comprimeren?</string>
+    <string name="compress_message">Origineel: %1$s.\n\nNaast het origineel wordt een kleinere kopie opgeslagen. Het origineel wordt NIET verwijderd: verwijder het zelf als je het niet nodig hebt.\n\nLaat de app geopend terwijl het bezig is; dit kan enkele minuten duren.</string>
+    <string name="compress_progress">Comprimeren… %1$d%%</string>
+    <string name="compress_done_title">Kopie opgeslagen</string>
+    <string name="compress_done_message">%1$s → %2$s. Het origineel staat nog in je lijst: verwijder het zelf als je het niet nodig hebt.</string>
+    <string name="compress_no_gain">Deze video is al klein, dus een kleinere kopie is niet mogelijk. Er is niets opgeslagen.</string>
+    <string name="compress_failed">Deze video kan niet worden gecomprimeerd</string>
+    <string name="compress_cancelled">Comprimeren geannuleerd</string>
+
     <!-- Map en samenvatting -->
     <string name="setting_storage">Opslaan in</string>
     <string-array name="storage_labels">

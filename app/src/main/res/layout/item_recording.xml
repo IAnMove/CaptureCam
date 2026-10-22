@@ -19,10 +19,13 @@
         android:layout_margin="6dp"
         android:background="@drawable/bg_duration"
         android:fontFeatureSettings="tnum"
+        android:gravity="end"
+        android:lineSpacingMultiplier="0.95"
+        android:maxLines="2"
         android:paddingStart="6dp"
         android:paddingTop="2dp"
         android:paddingEnd="6dp"
         android:paddingBottom="2dp"
         android:textColor="#FFFFFFFF"
-        android:textSize="12sp" />
+        android:textSize="11sp" />
 </com.capturecam.recorder.RatioFrameLayout>

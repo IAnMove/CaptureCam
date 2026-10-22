@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">मिटाया नहीं जा सका</string>
     <string name="toast_play_failed">यह वीडियो नहीं चलाया जा सकता</string>
 
+    <string name="btn_compress">संपीड़ित करें</string>
+    <string name="compress_title">इस वीडियो को संपीड़ित करें?</string>
+    <string name="compress_message">मूल फ़ाइल: %1$s।\n\nउसके बगल में एक छोटी कॉपी सहेजी जाएगी। मूल फ़ाइल मिटाई नहीं जाएगी: ज़रूरत न हो तो उसे खुद मिटा दें।\n\nकाम होने तक ऐप खुला रखें; इसमें कुछ मिनट लग सकते हैं।</string>
+    <string name="compress_progress">संपीड़ित हो रहा है… %1$d%%</string>
+    <string name="compress_done_title">कॉपी सहेजी गई</string>
+    <string name="compress_done_message">%1$s → %2$s। मूल फ़ाइल अभी भी आपकी सूची में है: ज़रूरत न हो तो उसे खुद मिटा दें।</string>
+    <string name="compress_no_gain">यह वीडियो पहले से ही छोटा है, इसलिए इससे छोटी कॉपी नहीं बन सकती। कुछ भी सहेजा नहीं गया।</string>
+    <string name="compress_failed">यह वीडियो संपीड़ित नहीं हो सका</string>
+    <string name="compress_cancelled">संपीड़न रद्द किया गया</string>
+
     <!-- फ़ोल्डर और सारांश -->
     <string name="setting_storage">यहां सेव करें</string>
     <string-array name="storage_labels">

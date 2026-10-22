@@ -12,6 +12,7 @@ import android.net.Uri
 import android.os.Handler
 import android.os.Looper
 import android.provider.MediaStore
+import android.text.format.Formatter
 import android.util.LruCache
 import android.util.Size
 import android.widget.ImageView
@@ -30,6 +31,13 @@ class Recording(
     val dateLabel: String
         get() = DateFormat.getDateTimeInstance(DateFormat.MEDIUM, DateFormat.SHORT)
             .format(Date(dateAddedSec * 1000))
+
+    /** Tamaño como lo escribe el sistema (por ejemplo «28 MB»). */
+    fun sizeLabel(context: Context): String = Formatter.formatShortFileSize(context, sizeBytes)
+
+    /** «00:28 · 28 MB» */
+    fun infoLabel(context: Context): String =
+        RecorderService.formatTime(durationMs) + " · " + sizeLabel(context)
 }
 
 /** Acceso al histórico: las grabaciones que la app ha guardado en Películas o Descargas. */
@@ -55,18 +63,25 @@ object Recordings {
                 "${MediaStore.Video.Media.DATE_ADDED} DESC, ${MediaStore.Video.Media._ID} DESC"
             )?.use { c ->
                 while (c.moveToNext()) {
-                    result += Recording(
-                        uri = ContentUris.withAppendedId(
-                            MediaStore.Video.Media.EXTERNAL_CONTENT_URI, c.getLong(0)),
-                        name = c.getString(1) ?: "",
-                        durationMs = c.getLong(2),
-                        sizeBytes = c.getLong(3),
-                        dateAddedSec = c.getLong(4),
+                    val uri = ContentUris.withAppendedId(MediaStore.Video.Media.EXTERNAL_CONTENT_URI, c.getLong(0))
+                    result += complete(
+                        context, uri, c.getString(1) ?: "", c.getLong(2), c.getLong(3), c.getLong(4)
                     )
                 }
             }
         } catch (e: Exception) {
             android.util.Log.w("CaptureCam", "No se pudo leer el histórico", e)
+        }
+
+        // Recién guardada, MediaStore puede tardar un momento en listarla como vídeo: se añade a mano
+        // para que aparezca al parar. En cuanto la lista la trae sola, ya no hace falta.
+        RecorderState.lastSaved?.let { saved ->
+            val id = ContentUris.parseId(saved)
+            if (result.any { ContentUris.parseId(it.uri) == id }) {
+                RecorderState.lastSaved = null
+            } else {
+                queryOne(context, saved)?.let { result.add(0, it) }
+            }
         }
         return result
     }
@@ -74,7 +89,57 @@ object Recordings {
     /** Compara por id: la URI de Descargas y la de Vídeo apuntan al mismo archivo con rutas distintas. */
     fun find(context: Context, uri: Uri): Recording? {
         val id = ContentUris.parseId(uri)
-        return list(context).firstOrNull { ContentUris.parseId(it.uri) == id }
+        return list(context).firstOrNull { ContentUris.parseId(it.uri) == id } ?: queryOne(context, uri)
+    }
+
+    /** Una grabación leída directamente por su URI, sin pasar por el listado. */
+    private fun queryOne(context: Context, uri: Uri): Recording? {
+        return try {
+            context.contentResolver.query(
+                uri,
+                arrayOf(
+                    MediaStore.MediaColumns.DISPLAY_NAME, MediaStore.MediaColumns.DURATION,
+                    MediaStore.MediaColumns.SIZE, MediaStore.MediaColumns.DATE_ADDED
+                ),
+                null, null, null
+            )?.use { c ->
+                if (!c.moveToFirst()) return null
+                complete(context, uri, c.getString(0) ?: "", c.getLong(1), c.getLong(2), c.getLong(3))
+            }
+        } catch (e: Exception) {
+            null
+        }
+    }
+
+    /**
+     * Rellena la duración y el tamaño si MediaStore aún no los tiene (acaba de terminar la grabación y
+     * no ha acabado de analizarla): se leen del propio archivo.
+     */
+    private fun complete(
+        context: Context, uri: Uri, name: String, durationMs: Long, sizeBytes: Long, dateAddedSec: Long
+    ): Recording {
+        var duration = durationMs
+        var size = sizeBytes
+        if (size <= 0) {
+            size = try {
+                context.contentResolver.openFileDescriptor(uri, "r")?.use { it.statSize } ?: 0L
+            } catch (e: Exception) {
+                0L
+            }
+        }
+        if (duration <= 0) {
+            val retriever = MediaMetadataRetriever()
+            duration = try {
+                retriever.setDataSource(context, uri)
+                retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_DURATION)?.toLongOrNull() ?: 0L
+            } catch (e: Exception) {
+                0L
+            } finally {
+                runCatching { retriever.release() }
+            }
+        }
+        val date = if (dateAddedSec > 0) dateAddedSec else System.currentTimeMillis() / 1000
+        return Recording(uri, name, duration, size, date)
     }
 
     fun share(context: Context, uri: Uri) {
@@ -96,6 +161,44 @@ object Recordings {
         } catch (e: android.content.ActivityNotFoundException) {
             Toast.makeText(context, R.string.toast_no_player, Toast.LENGTH_SHORT).show()
         }
+    }
+
+    /** Pulsación larga sobre una grabación: compartir, comprimir o eliminar sin abrirla. */
+    fun showActions(activity: Activity, recording: Recording, onDeleted: () -> Unit) {
+        AlertDialog.Builder(activity)
+            .setTitle(recording.dateLabel)
+            .setItems(
+                arrayOf(
+                    activity.getString(R.string.btn_share),
+                    activity.getString(R.string.btn_compress),
+                    activity.getString(R.string.btn_delete),
+                )
+            ) { _, which ->
+                when (which) {
+                    0 -> share(activity, recording.uri)
+                    1 -> confirmCompress(activity, recording, null)
+                    2 -> confirmDelete(activity, recording.uri, onDeleted)
+                }
+            }
+            .show()
+    }
+
+    /** Explica qué va a pasar y, si el usuario acepta, empieza a comprimir una copia. */
+    fun confirmCompress(activity: Activity, recording: Recording, onStarted: (() -> Unit)?) {
+        if (Compressor.running) {
+            // Ya hay una en marcha: se vuelve a enseñar su avance.
+            Compressor.listener?.invoke()
+            return
+        }
+        AlertDialog.Builder(activity)
+            .setTitle(R.string.compress_title)
+            .setMessage(activity.getString(R.string.compress_message, recording.sizeLabel(activity)))
+            .setNegativeButton(R.string.btn_cancel, null)
+            .setPositiveButton(R.string.btn_compress) { _, _ ->
+                onStarted?.invoke()
+                Compressor.start(activity, recording)
+            }
+            .show()
     }
 
     /** Pide confirmación y borra; llama a [onDeleted] solo si se eliminó. */

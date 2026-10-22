@@ -40,7 +40,7 @@ object RecordingCell {
         val view = convertView
             ?: LayoutInflater.from(context).inflate(R.layout.item_recording, parent, false)
         view.findViewById<TextView>(R.id.duration).text =
-            RecorderService.formatTime(recording.durationMs)
+            RecorderService.formatTime(recording.durationMs) + "\n" + recording.sizeLabel(context)
         Thumbs.load(context, recording.uri, view.findViewById<ImageView>(R.id.thumb))
         return view
     }

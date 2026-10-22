@@ -12,7 +12,8 @@ Un grabador de pantalla sencillo y gratuito para Android. **Sin anuncios, sin cu
 - Resolution, frame rate, quality and orientation settings
 - Records the sound of the apps you are recording (on by default) and, optionally, the microphone
 - Saves standard MP4 files to `Downloads/CaptureCam` or `Movies/CaptureCam`
-- Built-in gallery: browse recent recordings, preview, share, open with another app or delete
+- Built-in gallery: browse recent recordings (with duration and size in MB), preview, share, open with another app or delete (with confirmation)
+- Compress: saves a smaller copy next to the original (same resolution, lower bitrate, audio untouched); the original is never deleted automatically
 - 20 languages
 
 ## Privacy

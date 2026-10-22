@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">삭제할 수 없습니다</string>
     <string name="toast_play_failed">이 동영상은 재생할 수 없습니다</string>
 
+    <string name="btn_compress">압축</string>
+    <string name="compress_title">이 동영상을 압축할까요?</string>
+    <string name="compress_message">원본: %1$s\n\n원본 옆에 더 작은 사본이 저장됩니다. 원본은 삭제되지 않으니 필요 없으면 직접 삭제하세요.\n\n작업하는 동안 앱을 열어 두세요. 몇 분 걸릴 수 있습니다.</string>
+    <string name="compress_progress">압축 중… %1$d%%</string>
+    <string name="compress_done_title">사본을 저장했습니다</string>
+    <string name="compress_done_message">%1$s → %2$s. 원본은 목록에 그대로 있습니다. 필요 없으면 직접 삭제하세요.</string>
+    <string name="compress_no_gain">이 동영상은 이미 작아서 더 작은 사본을 만들 수 없습니다. 저장된 것이 없습니다.</string>
+    <string name="compress_failed">이 동영상을 압축하지 못했습니다</string>
+    <string name="compress_cancelled">압축을 취소했습니다</string>
+
     <!-- 폴더 및 요약 -->
     <string name="setting_storage">저장 위치</string>
     <string-array name="storage_labels">

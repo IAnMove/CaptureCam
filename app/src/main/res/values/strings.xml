@@ -79,6 +79,17 @@
     <string name="toast_delete_failed">Couldn\'t delete</string>
     <string name="toast_play_failed">This video can\'t be played</string>
 
+    <!-- Comprimir -->
+    <string name="btn_compress">Compress</string>
+    <string name="compress_title">Compress this video?</string>
+    <string name="compress_message">Original: %1$s.\n\nA smaller copy is saved next to it. The original is NOT deleted: remove it yourself if you don\'t need it.\n\nKeep the app open while it works; it can take a few minutes.</string>
+    <string name="compress_progress">Compressing… %1$d%%</string>
+    <string name="compress_done_title">Copy saved</string>
+    <string name="compress_done_message">%1$s → %2$s. The original is still in your list: delete it yourself if you don\'t need it.</string>
+    <string name="compress_no_gain">This video is already small, so a smaller copy isn\'t possible. Nothing was saved.</string>
+    <string name="compress_failed">Couldn\'t compress this video</string>
+    <string name="compress_cancelled">Compression cancelled</string>
+
     <!-- Folder and summary -->
     <string name="setting_storage">Save to</string>
     <string-array name="storage_labels">

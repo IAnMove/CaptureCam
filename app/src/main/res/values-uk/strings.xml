@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">Не вдалося видалити</string>
     <string name="toast_play_failed">Не вдається відтворити це відео</string>
 
+    <string name="btn_compress">Стиснути</string>
+    <string name="compress_title">Стиснути це відео?</string>
+    <string name="compress_message">Оригінал: %1$s.\n\nПоруч буде збережено меншу копію. Оригінал НЕ видаляється: видаліть його самі, якщо він не потрібен.\n\nНе закривайте застосунок, поки триває стиснення; це може зайняти кілька хвилин.</string>
+    <string name="compress_progress">Стиснення… %1$d%%</string>
+    <string name="compress_done_title">Копію збережено</string>
+    <string name="compress_done_message">%1$s → %2$s. Оригінал залишився в списку: видаліть його самі, якщо він не потрібен.</string>
+    <string name="compress_no_gain">Це відео вже невелике, тому створити меншу копію неможливо. Нічого не збережено.</string>
+    <string name="compress_failed">Не вдалося стиснути це відео</string>
+    <string name="compress_cancelled">Стиснення скасовано</string>
+
     <!-- Папка та підсумок -->
     <string name="setting_storage">Зберігати в</string>
     <string-array name="storage_labels">

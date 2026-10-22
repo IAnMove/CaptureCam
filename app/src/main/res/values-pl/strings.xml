@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">Nie udało się usunąć</string>
     <string name="toast_play_failed">Nie można odtworzyć tego filmu</string>
 
+    <string name="btn_compress">Kompresuj</string>
+    <string name="compress_title">Skompresować ten film?</string>
+    <string name="compress_message">Oryginał: %1$s.\n\nObok zostanie zapisana mniejsza kopia. Oryginał NIE zostanie usunięty: usuń go samodzielnie, jeśli nie jest potrzebny.\n\nTrzymaj aplikację otwartą podczas pracy; może to potrwać kilka minut.</string>
+    <string name="compress_progress">Kompresowanie… %1$d%%</string>
+    <string name="compress_done_title">Kopia zapisana</string>
+    <string name="compress_done_message">%1$s → %2$s. Oryginał nadal jest na liście: usuń go samodzielnie, jeśli nie jest potrzebny.</string>
+    <string name="compress_no_gain">Ten film jest już mały, więc nie można utworzyć mniejszej kopii. Nic nie zapisano.</string>
+    <string name="compress_failed">Nie udało się skompresować tego filmu</string>
+    <string name="compress_cancelled">Kompresję anulowano</string>
+
     <!-- Folder i podsumowanie -->
     <string name="setting_storage">Zapisuj w</string>
     <string-array name="storage_labels">

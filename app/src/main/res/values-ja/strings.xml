@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">削除できませんでした</string>
     <string name="toast_play_failed">この動画は再生できません</string>
 
+    <string name="btn_compress">圧縮</string>
+    <string name="compress_title">この動画を圧縮しますか？</string>
+    <string name="compress_message">元のサイズ：%1$s\n\n小さいコピーを元の動画の隣に保存します。元の動画は削除されません。不要な場合は手動で削除してください。\n\n処理中はアプリを開いたままにしてください。数分かかることがあります。</string>
+    <string name="compress_progress">圧縮中… %1$d%%</string>
+    <string name="compress_done_title">コピーを保存しました</string>
+    <string name="compress_done_message">%1$s → %2$s。元の動画は一覧に残っています。不要な場合は手動で削除してください。</string>
+    <string name="compress_no_gain">この動画はすでに小さいため、これより小さいコピーは作れません。何も保存されませんでした。</string>
+    <string name="compress_failed">この動画を圧縮できませんでした</string>
+    <string name="compress_cancelled">圧縮をキャンセルしました</string>
+
     <!-- フォルダと概要 -->
     <string name="setting_storage">保存先</string>
     <string-array name="storage_labels">

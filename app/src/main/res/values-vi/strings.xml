@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">Không thể xóa</string>
     <string name="toast_play_failed">Không thể phát video này</string>
 
+    <string name="btn_compress">Nén</string>
+    <string name="compress_title">Nén video này?</string>
+    <string name="compress_message">Bản gốc: %1$s.\n\nMột bản sao nhỏ hơn sẽ được lưu bên cạnh. Bản gốc KHÔNG bị xóa: hãy tự xóa nếu không cần.\n\nHãy giữ ứng dụng mở trong khi xử lý; việc này có thể mất vài phút.</string>
+    <string name="compress_progress">Đang nén… %1$d%%</string>
+    <string name="compress_done_title">Đã lưu bản sao</string>
+    <string name="compress_done_message">%1$s → %2$s. Bản gốc vẫn còn trong danh sách: hãy tự xóa nếu không cần.</string>
+    <string name="compress_no_gain">Video này đã nhỏ rồi nên không thể tạo bản sao nhỏ hơn. Chưa lưu gì cả.</string>
+    <string name="compress_failed">Không thể nén video này</string>
+    <string name="compress_cancelled">Đã hủy nén</string>
+
     <!-- Thư mục và tóm tắt -->
     <string name="setting_storage">Lưu vào</string>
     <string-array name="storage_labels">

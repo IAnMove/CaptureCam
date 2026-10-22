@@ -1,7 +1,6 @@
 package com.capturecam.recorder
 
 import android.app.Activity
-import android.app.AlertDialog
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
@@ -15,6 +14,7 @@ class HistoryActivity : Activity() {
 
     private val items = mutableListOf<Recording>()
     private lateinit var empty: TextView
+    private val compressUi = CompressUi(this) { reload() }
 
     private val adapter = object : BaseAdapter() {
         override fun getCount() = items.size
@@ -42,7 +42,7 @@ class HistoryActivity : Activity() {
                 startActivity(PlayerActivity.intent(this@HistoryActivity, items[position].uri))
             }
             setOnItemLongClickListener { _, _, position, _ ->
-                showActions(items[position])
+                Recordings.showActions(this@HistoryActivity, items[position]) { reload() }
                 true
             }
         }
@@ -60,16 +60,13 @@ class HistoryActivity : Activity() {
         empty.visibility = if (items.isEmpty()) View.VISIBLE else View.GONE
     }
 
-    /** Pulsación larga: compartir o eliminar sin tener que abrir la grabación. */
-    private fun showActions(recording: Recording) {
-        AlertDialog.Builder(this)
-            .setTitle(recording.dateLabel)
-            .setItems(arrayOf(getString(R.string.btn_share), getString(R.string.btn_delete))) { _, which ->
-                when (which) {
-                    0 -> Recordings.share(this, recording.uri)
-                    1 -> Recordings.confirmDelete(this, recording.uri) { reload() }
-                }
-            }
-            .show()
+    override fun onStart() {
+        super.onStart()
+        compressUi.attach()
+    }
+
+    override fun onStop() {
+        compressUi.detach()
+        super.onStop()
     }
 }

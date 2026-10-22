@@ -280,6 +280,7 @@ class RecorderService : Service() {
             if (saved) {
                 val done = ContentValues().apply { put(MediaStore.MediaColumns.IS_PENDING, 0) }
                 contentResolver.update(uri, done, null, null)
+                RecorderState.lastSaved = uri
                 notifySaved(uri)
             } else {
                 runCatching { contentResolver.delete(uri, null, null) }
@@ -376,6 +377,15 @@ class RecorderService : Service() {
     }
 
     private fun notifySaved(uri: Uri) {
+        // Duración y tamaño del archivo ya terminado, para que se vea al momento que se ha guardado.
+        val info = Recordings.find(this, uri)?.infoLabel(this)
+        if (info != null) {
+            handler.post {
+                Toast.makeText(
+                    applicationContext, getString(R.string.notif_saved_title) + ": " + info, Toast.LENGTH_LONG
+                ).show()
+            }
+        }
         val pi = PendingIntent.getActivity(
             this, 3, PlayerActivity.intent(this, uri),
             PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT
@@ -385,6 +395,7 @@ class RecorderService : Service() {
             .setColor(getColor(R.color.accent))
             .setContentTitle(getString(R.string.notif_saved_title))
             .setContentText(getString(R.string.notif_saved_text))
+            .setSubText(info)
             .setContentIntent(pi)
             .setAutoCancel(true)
             .build()

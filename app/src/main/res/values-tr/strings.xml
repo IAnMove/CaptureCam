@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">Silinemedi</string>
     <string name="toast_play_failed">Bu video oynatılamıyor</string>
 
+    <string name="btn_compress">Sıkıştır</string>
+    <string name="compress_title">Bu video sıkıştırılsın mı?</string>
+    <string name="compress_message">Orijinal: %1$s.\n\nYanına daha küçük bir kopya kaydedilir. Orijinal SİLİNMEZ: gerek duymuyorsan kendin sil.\n\nÇalışırken uygulamayı açık tut; birkaç dakika sürebilir.</string>
+    <string name="compress_progress">Sıkıştırılıyor… %1$d%%</string>
+    <string name="compress_done_title">Kopya kaydedildi</string>
+    <string name="compress_done_message">%1$s → %2$s. Orijinal listede duruyor: gerek duymuyorsan kendin sil.</string>
+    <string name="compress_no_gain">Bu video zaten küçük, bu yüzden daha küçük bir kopya oluşturulamaz. Hiçbir şey kaydedilmedi.</string>
+    <string name="compress_failed">Bu video sıkıştırılamadı</string>
+    <string name="compress_cancelled">Sıkıştırma iptal edildi</string>
+
     <!-- Klasör ve özet -->
     <string name="setting_storage">Kaydetme yeri</string>
     <string-array name="storage_labels">

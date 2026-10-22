@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">Tidak dapat menghapus</string>
     <string name="toast_play_failed">Video ini tidak dapat diputar</string>
 
+    <string name="btn_compress">Kompres</string>
+    <string name="compress_title">Kompres video ini?</string>
+    <string name="compress_message">Asli: %1$s.\n\nSalinan yang lebih kecil akan disimpan di sebelahnya. Video asli TIDAK dihapus: hapus sendiri jika tidak diperlukan.\n\nBiarkan aplikasi tetap terbuka selama proses; bisa memakan waktu beberapa menit.</string>
+    <string name="compress_progress">Mengompres… %1$d%%</string>
+    <string name="compress_done_title">Salinan disimpan</string>
+    <string name="compress_done_message">%1$s → %2$s. Video asli masih ada di daftar: hapus sendiri jika tidak diperlukan.</string>
+    <string name="compress_no_gain">Video ini sudah kecil, jadi salinan yang lebih kecil tidak dapat dibuat. Tidak ada yang disimpan.</string>
+    <string name="compress_failed">Video ini tidak dapat dikompres</string>
+    <string name="compress_cancelled">Kompresi dibatalkan</string>
+
     <!-- Folder dan ringkasan -->
     <string name="setting_storage">Simpan di</string>
     <string-array name="storage_labels">

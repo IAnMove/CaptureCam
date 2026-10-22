@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">تعذّر الحذف</string>
     <string name="toast_play_failed">لا يمكن تشغيل هذا الفيديو</string>
 
+    <string name="btn_compress">ضغط</string>
+    <string name="compress_title">ضغط هذا الفيديو؟</string>
+    <string name="compress_message">الأصل: %1$s.\n\nسيتم حفظ نسخة أصغر بجانبه. لن يتم حذف الأصل: احذفه بنفسك إن لم تكن بحاجة إليه.\n\nأبقِ التطبيق مفتوحًا أثناء العمل؛ قد يستغرق ذلك بضع دقائق.</string>
+    <string name="compress_progress">جارٍ الضغط… %1$d%%</string>
+    <string name="compress_done_title">تم حفظ النسخة</string>
+    <string name="compress_done_message">من %1$s إلى %2$s. لا يزال الأصل في قائمتك: احذفه بنفسك إن لم تكن بحاجة إليه.</string>
+    <string name="compress_no_gain">هذا الفيديو صغير بالفعل، لذا لا يمكن إنشاء نسخة أصغر. لم يتم حفظ أي شيء.</string>
+    <string name="compress_failed">تعذّر ضغط هذا الفيديو</string>
+    <string name="compress_cancelled">تم إلغاء الضغط</string>
+
     <!-- المجلد والملخص -->
     <string name="setting_storage">الحفظ في</string>
     <string-array name="storage_labels">

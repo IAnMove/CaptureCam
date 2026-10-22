@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">Löschen nicht möglich</string>
     <string name="toast_play_failed">Dieses Video kann nicht abgespielt werden</string>
 
+    <string name="btn_compress">Komprimieren</string>
+    <string name="compress_title">Dieses Video komprimieren?</string>
+    <string name="compress_message">Original: %1$s.\n\nNeben dem Original wird eine kleinere Kopie gespeichert. Das Original wird NICHT gelöscht: Lösche es selbst, wenn du es nicht brauchst.\n\nLass die App geöffnet, solange sie arbeitet; das kann einige Minuten dauern.</string>
+    <string name="compress_progress">Komprimiere… %1$d%%</string>
+    <string name="compress_done_title">Kopie gespeichert</string>
+    <string name="compress_done_message">%1$s → %2$s. Das Original ist weiterhin in deiner Liste: Lösche es selbst, wenn du es nicht brauchst.</string>
+    <string name="compress_no_gain">Dieses Video ist bereits klein, daher ist keine kleinere Kopie möglich. Es wurde nichts gespeichert.</string>
+    <string name="compress_failed">Video konnte nicht komprimiert werden</string>
+    <string name="compress_cancelled">Komprimierung abgebrochen</string>
+
     <!-- Ordner und Zusammenfassung -->
     <string name="setting_storage">Speichern in</string>
     <string-array name="storage_labels">

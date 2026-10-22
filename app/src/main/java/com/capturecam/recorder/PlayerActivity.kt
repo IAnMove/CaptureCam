@@ -12,11 +12,12 @@ import android.widget.TextView
 import android.widget.Toast
 import android.widget.VideoView
 
-/** Vista previa de una grabación con acciones para compartirla, abrirla en otra app o borrarla. */
+/** Vista previa de una grabación con acciones para compartirla, abrirla en otra app, comprimirla o borrarla. */
 class PlayerActivity : Activity() {
 
     private lateinit var video: VideoView
     private var uri: Uri? = null
+    private val compressUi = CompressUi(this) { }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,10 +35,17 @@ class PlayerActivity : Activity() {
             WindowInsets.CONSUMED
         }
 
-        findViewById<TextView>(R.id.tvTitle).text = Recordings.find(this, uri)?.dateLabel ?: ""
+        val recording = Recordings.find(this, uri)
+        findViewById<TextView>(R.id.tvTitle).text = recording?.dateLabel ?: ""
+        findViewById<TextView>(R.id.tvMeta).text = recording?.infoLabel(this) ?: ""
         findViewById<View>(R.id.btnBack).setOnClickListener { finish() }
         findViewById<View>(R.id.btnShare).setOnClickListener { Recordings.share(this, uri) }
         findViewById<View>(R.id.btnOpenWith).setOnClickListener { Recordings.openWith(this, uri) }
+        findViewById<View>(R.id.btnCompress).setOnClickListener {
+            // Se vuelve a leer: el tamaño puede no estar completo si se abrió nada más grabar.
+            val current = Recordings.find(this, uri) ?: return@setOnClickListener
+            Recordings.confirmCompress(this, current) { video.pause() }
+        }
         findViewById<View>(R.id.btnDelete).setOnClickListener {
             Recordings.confirmDelete(this, uri) { finish() }
         }
@@ -50,6 +58,16 @@ class PlayerActivity : Activity() {
             true
         }
         video.setVideoURI(uri)
+    }
+
+    override fun onStart() {
+        super.onStart()
+        compressUi.attach()
+    }
+
+    override fun onStop() {
+        compressUi.detach()
+        super.onStop()
     }
 
     override fun onPause() {

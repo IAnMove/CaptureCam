@@ -1,5 +1,6 @@
 package com.capturecam.recorder
 
+import android.net.Uri
 import android.os.Handler
 import android.os.Looper
 import android.os.SystemClock
@@ -19,6 +20,9 @@ object RecorderState {
 
     /** Lo registra la actividad principal mientras es visible. */
     var listener: (() -> Unit)? = null
+
+    /** La última grabación terminada; las listas la enseñan aunque MediaStore aún no la devuelva. */
+    var lastSaved: Uri? = null
 
     private var accumulatedMs = 0L
     private var segmentStart = 0L

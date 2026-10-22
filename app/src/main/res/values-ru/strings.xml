@@ -77,6 +77,16 @@
     <string name="toast_delete_failed">Не удалось удалить</string>
     <string name="toast_play_failed">Не удаётся воспроизвести это видео</string>
 
+    <string name="btn_compress">Сжать</string>
+    <string name="compress_title">Сжать это видео?</string>
+    <string name="compress_message">Оригинал: %1$s.\n\nРядом будет сохранена копия меньшего размера. Оригинал НЕ удаляется: удалите его сами, если он не нужен.\n\nНе закрывайте приложение, пока идёт сжатие; это может занять несколько минут.</string>
+    <string name="compress_progress">Сжатие… %1$d%%</string>
+    <string name="compress_done_title">Копия сохранена</string>
+    <string name="compress_done_message">%1$s → %2$s. Оригинал остался в списке: удалите его сами, если он не нужен.</string>
+    <string name="compress_no_gain">Это видео уже небольшое, поэтому копию меньшего размера создать нельзя. Ничего не сохранено.</string>
+    <string name="compress_failed">Не удалось сжать это видео</string>
+    <string name="compress_cancelled">Сжатие отменено</string>
+
     <!-- Папка и сводка -->
     <string name="setting_storage">Сохранять в</string>
     <string-array name="storage_labels">
