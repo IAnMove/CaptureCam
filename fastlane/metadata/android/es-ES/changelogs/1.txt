@@ -1,0 +1,1 @@
+Primera versión: grabador de pantalla sin anuncios ni marca de agua, con sonido de las apps y micrófono opcional, pausa, ajuste rápido, cuenta atrás, galería y 20 idiomas.

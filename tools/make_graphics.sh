@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Genera el icono (512x512) y la imagen destacada (1024x500) de la ficha de Google Play.
-# Necesita: rsvg-convert, ImageMagick (magick) y las capturas de store/metadata/android/en-US/images/phoneScreenshots.
+# Necesita: rsvg-convert, ImageMagick (magick) y las capturas de fastlane/metadata/android/en-US/images/phoneScreenshots.
 set -euo pipefail
 cd "$(dirname "$0")/.."
-G=store/metadata/android/en-US/images   # estructura de fastlane supply
+G=fastlane/metadata/android/en-US/images   # estructura de fastlane supply
 SH=$G/phoneScreenshots
 BOLD=/usr/share/fonts/noto/NotoSans-Bold.ttf
 REG=/usr/share/fonts/noto/NotoSans-Regular.ttf
