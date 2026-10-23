@@ -40,7 +40,7 @@ The app has no dependencies beyond the Android framework.
 | --- | --- |
 | `app/src/main/java/com/capturecam/recorder` | App code (Kotlin) |
 | `app/src/main/res/values-*` | Translations |
-| `store/metadata/android/` | Google Play listing in [fastlane supply](https://docs.fastlane.tools/actions/supply/) layout: texts, screenshots and graphics for 20 languages |
+| `fastlane/metadata/android/` | Google Play listing in [fastlane supply](https://docs.fastlane.tools/actions/supply/) layout: texts, screenshots and graphics for 20 languages |
 | `store/PLAY_CONSOLE.md` | Step-by-step guide to the Play Console (in Spanish) |
 | `tools/check_i18n.py` | Validates translations and Play listing length limits |
 | `tools/make_graphics.sh` | Regenerates the Play icon and feature graphic |
@@ -52,6 +52,15 @@ The app has no dependencies beyond the Android framework.
 - Apps that block screen capture (some banking or video apps) are recorded as black.
 - The frame-rate setting is a hint: the recorder follows the display refresh rate.
 - Requires Android 11 or newer.
+
+## AI usage
+
+CaptureCam was written with substantial help from AI coding assistants (code generation, translations and
+store texts). I am the developer: I reviewed every change, tested the app on real devices and maintain the
+code. The app itself contains no AI features, models or network calls.
+
+Esta app se ha programado con ayuda importante de asistentes de IA. Yo, el desarrollador, he revisado cada
+cambio, la he probado en móviles reales y mantengo el código. La app no incluye funciones de IA ni se conecta a internet.
 
 ## License
 

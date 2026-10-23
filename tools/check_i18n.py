@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Valida las traducciones de la app y la ficha de Google Play (textos, capturas e imágenes).
 
-La ficha sigue la estructura de fastlane supply: store/metadata/android/<idioma>/
+La ficha sigue la estructura de fastlane supply: fastlane/metadata/android/<idioma>/
     title.txt, short_description.txt, full_description.txt, images/{icon,featureGraphic}.png,
     images/phoneScreenshots/*.png
 Uso: tools/check_i18n.py [carpeta_de_idioma ...]   (sin argumentos, comprueba todo)
@@ -16,7 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 RES = ROOT / "app/src/main/res"
-STORE = ROOT / "store/metadata/android"
+STORE = ROOT / "fastlane/metadata/android"
 LIMITS = {"title.txt": 30, "short_description.txt": 80, "full_description.txt": 4000}
 GRAPHICS = {"icon.png": (512, 512), "featureGraphic.png": (1024, 500)}   # tamaños exactos que pide Play
 PLACEHOLDER = re.compile(r"%(?:\d\$)?[sd]")

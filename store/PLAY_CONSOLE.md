@@ -1,7 +1,7 @@
 # Guía de Play Console para CaptureCam
 
 Todo lo que hay que rellenar al publicar, con los textos listos para copiar.
-Los datos de la ficha (títulos, descripciones, capturas, gráficos) están en `store/metadata/android/<idioma>/`, con la
+Los datos de la ficha (títulos, descripciones, capturas, gráficos) están en `fastlane/metadata/android/<idioma>/`, con la
 estructura de [fastlane supply](https://docs.fastlane.tools/actions/supply/): `title.txt`, `short_description.txt`,
 `full_description.txt` e `images/` (`icon.png` y `featureGraphic.png` solo en el idioma por defecto, `en-US`;
 `phoneScreenshots/` en cada idioma). Cualquier herramienta (fastlane, un script, un bot o tú a mano) puede leerla tal cual.
@@ -32,12 +32,12 @@ estructura de [fastlane supply](https://docs.fastlane.tools/actions/supply/): `t
 
 | Campo | Valor |
 | --- | --- |
-| Nombre y descripciones | `store/metadata/android/<idioma>/title.txt`, `short_description.txt`, `full_description.txt` (20 idiomas) |
+| Nombre y descripciones | `fastlane/metadata/android/<idioma>/title.txt`, `short_description.txt`, `full_description.txt` (20 idiomas) |
 | Idioma predeterminado | English (en-US) |
 | Categoría | Herramientas (Tools) |
-| Icono | `store/metadata/android/en-US/images/icon.png` |
-| Imagen destacada | `store/metadata/android/en-US/images/featureGraphic.png` |
-| Capturas de teléfono | `store/metadata/android/en-US/images/phoneScreenshots/` (7, orden 1 a 7). Los demás idiomas tienen 4 capturas propias |
+| Icono | `fastlane/metadata/android/en-US/images/icon.png` |
+| Imagen destacada | `fastlane/metadata/android/en-US/images/featureGraphic.png` |
+| Capturas de teléfono | `fastlane/metadata/android/en-US/images/phoneScreenshots/` (7, orden 1 a 7). Los demás idiomas tienen 4 capturas propias |
 | Correo de contacto | El que prefieras; **es público** en la ficha |
 | Política de privacidad | `https://iaen.es/android/capturecam/privacy/` (el texto original está en `PRIVACY.md`) |
 | Sitio web | `https://iaen.es/android/capturecam/` |
