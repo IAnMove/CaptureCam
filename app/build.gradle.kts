@@ -19,8 +19,8 @@ android {
         applicationId = "es.iaen.capturecam"
         minSdk = 30
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1"
     }
 
     signingConfigs {

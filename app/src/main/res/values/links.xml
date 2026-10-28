@@ -2,7 +2,7 @@
 <resources>
     <string name="url_source" translatable="false">https://github.com/IAnMove/CaptureCam</string>
     <string name="url_privacy" translatable="false">https://iaen.es/android/capturecam/privacy/</string>
-    <string name="url_more" translatable="false">https://iaen.es/android</string>
+    <string name="url_more" translatable="false">https://iaen.es/android/#apps</string>
     <string name="url_x" translatable="false">https://x.com/theinaog</string>
     <string name="handle_x" translatable="false">\@theinaog</string>
 </resources>

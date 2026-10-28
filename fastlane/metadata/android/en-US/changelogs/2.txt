@@ -1,0 +1,1 @@
+New: compress a recording into a smaller copy (the original is kept). Improvements to the recorder, the history and the player, and updated translations. The About screen links to all apps by the author.

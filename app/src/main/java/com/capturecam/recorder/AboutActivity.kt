@@ -30,7 +30,7 @@ class AboutActivity : Activity() {
         findViewById<TextView>(R.id.subSource).text =
             getString(R.string.url_source).removePrefix("https://")
         findViewById<TextView>(R.id.subMore).text =
-            getString(R.string.url_more).removePrefix("https://")
+            getString(R.string.url_more).removePrefix("https://").substringBefore("/#")
         findViewById<TextView>(R.id.subX).text = getString(R.string.handle_x)
 
         findViewById<View>(R.id.rowSource).setOnClickListener { open(R.string.url_source) }
