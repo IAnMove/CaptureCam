@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main screen -->
+    <string name="tagline">Rakam skrin anda. Tanpa iklan.</string>
+    <string name="state_idle">Sedia untuk merakam</string>
+    <string name="state_countdown">Memulakan…</string>
+    <string name="state_recording">Merakam</string>
+    <string name="state_paused">Dijeda</string>
+    <string name="btn_record">Rakam</string>
+    <string name="btn_stop">Berhenti</string>
+    <string name="btn_pause">Jeda</string>
+    <string name="btn_resume">Sambung semula</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="no_recordings">Belum ada rakaman</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Tetapan</string>
+    <string name="setting_resolution">Resolusi</string>
+    <string name="setting_fps">Bingkai per saat</string>
+    <string name="setting_quality">Kualiti</string>
+    <string name="setting_orientation">Orientasi</string>
+    <string name="setting_mic">Rakam mikrofon</string>
+    <string name="setting_app_audio">Rakam bunyi aplikasi</string>
+    <string name="setting_app_audio_hint">Android memerlukan kebenaran mikrofon untuk ini, tetapi mikrofon tidak digunakan.</string>
+    <string name="setting_countdown">Undur 3 saat</string>
+
+    <string-array name="resolution_labels">
+        <item>Asal</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>Rendah</item>
+        <item>Sederhana</item>
+        <item>Tinggi</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>Automatik</item>
+        <item>Potret</item>
+        <item>Landskap</item>
+    </string-array>
+
+    <!-- Notifications -->
+    <string name="channel_recording">Rakaman sedang berjalan</string>
+    <string name="channel_saved">Rakaman yang disimpan</string>
+    <string name="notif_countdown_title">Bermula dalam %1$d…</string>
+    <string name="notif_recording_title">Merakam skrin</string>
+    <string name="notif_paused_title">Rakaman dijeda</string>
+    <string name="notif_saved_title">Rakaman disimpan</string>
+    <string name="notif_saved_text">Ketik untuk menonton</string>
+    <string name="notif_nothing_captured">Rakaman terlalu singkat</string>
+
+    <!-- Messages -->
+    <string name="toast_no_consent">Kebenaran tangkapan skrin diperlukan untuk merakam</string>
+    <string name="toast_mic_denied">Tiada kebenaran mikrofon: rakaman tanpa audio</string>
+    <string name="toast_error">Tidak dapat memulakan rakaman</string>
+    <string name="toast_no_player">Tiada aplikasi untuk memainkan video</string>
+
+    <!-- History and player -->
+    <string name="recents_title">Terkini</string>
+    <string name="btn_all">Lihat semua</string>
+    <string name="history_title">Rakaman</string>
+    <string name="btn_share">Kongsi</string>
+    <string name="btn_open_with">Buka dengan…</string>
+    <string name="btn_delete">Padam</string>
+    <string name="cd_back">Kembali</string>
+    <string name="share_chooser">Kongsi rakaman</string>
+    <string name="delete_title">Padam rakaman ini?</string>
+    <string name="delete_message">Tindakan ini tidak boleh dibuat asal.</string>
+    <string name="toast_deleted">Rakaman dipadam</string>
+    <string name="toast_delete_failed">Tidak dapat dipadam</string>
+    <string name="toast_play_failed">Video ini tidak dapat dimainkan</string>
+
+    <!-- Comprimir -->
+    <string name="btn_compress">Mampatkan</string>
+    <string name="compress_title">Mampatkan video ini?</string>
+    <string name="compress_message">Asal: %1$s.\n\nSatu salinan yang lebih kecil disimpan di sebelahnya. Yang asal TIDAK dipadam: padam sendiri jika tidak diperlukan.\n\nBiarkan aplikasi terbuka semasa ia berjalan; proses ini boleh mengambil masa beberapa minit.</string>
+    <string name="compress_progress">Memampatkan… %1$d%%</string>
+    <string name="compress_done_title">Salinan disimpan</string>
+    <string name="compress_done_message">%1$s → %2$s. Yang asal masih dalam senarai: padam sendiri jika tidak diperlukan.</string>
+    <string name="compress_no_gain">Video ini sudah kecil, jadi salinan yang lebih kecil tidak dapat dibuat. Tiada apa-apa disimpan.</string>
+    <string name="compress_failed">Tidak dapat memampatkan video ini</string>
+    <string name="compress_cancelled">Pemampatan dibatalkan</string>
+
+    <!-- Folder and summary -->
+    <string name="setting_storage">Simpan ke</string>
+    <string-array name="storage_labels">
+        <item>Filem</item>
+        <item>Muat turun</item>
+    </string-array>
+    <string name="saved_in_movies">Disimpan ke Filem/CaptureCam</string>
+    <string name="saved_in_downloads">Disimpan ke Muat turun/CaptureCam</string>
+    <string name="summary_resolution">Akan merakam pada %1$d × %2$d</string>
+
+    <!-- On-screen countdown permission -->
+    <string name="overlay_title">Kira detik pada skrin</string>
+    <string name="overlay_message">Untuk menunjukkan 3, 2, 1 di atas aplikasi yang akan dirakam, CaptureCam memerlukan kebenaran “Paparkan di atas apl lain”. Tanpa kebenaran ini, kira detik hanya muncul dalam pemberitahuan.</string>
+    <string name="overlay_grant">Beri kebenaran</string>
+    <string name="overlay_skip">Bukan sekarang</string>
+
+    <!-- About -->
+    <string name="about_open">Perihal CaptureCam</string>
+    <string name="about_title">Perihal</string>
+    <string name="about_version">Versi %1$s</string>
+    <string name="about_description">Perakam skrin percuma tanpa iklan, tanpa akaun dan tanpa akses internet. Rakaman anda tidak sekali-kali keluar dari telefon.</string>
+    <string name="about_source">Kod sumber</string>
+    <string name="about_more">Lagi aplikasi oleh pengarang</string>
+    <string name="about_privacy">Dasar privasi</string>
+    <string name="about_x">Ikuti di X</string>
+    <string name="toast_no_browser">Tiada aplikasi dapat membuka pautan ini</string>
+
+    <string name="tile_label">Rakam skrin</string>
+    <string name="tile_stop">Berhenti</string>
+</resources>

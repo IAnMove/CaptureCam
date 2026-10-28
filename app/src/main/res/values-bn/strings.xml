@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main screen -->
+    <string name="tagline">স্ক্রিন রেকর্ড করুন। বিজ্ঞাপন নেই।</string>
+    <string name="state_idle">রেকর্ডের জন্য প্রস্তুত</string>
+    <string name="state_countdown">শুরু হচ্ছে…</string>
+    <string name="state_recording">রেকর্ড হচ্ছে</string>
+    <string name="state_paused">বিরতিতে</string>
+    <string name="btn_record">রেকর্ড</string>
+    <string name="btn_stop">থামুন</string>
+    <string name="btn_pause">বিরতি</string>
+    <string name="btn_resume">চালিয়ে যান</string>
+    <string name="btn_cancel">বাতিল</string>
+    <string name="no_recordings">এখনও কোনো রেকর্ডিং নেই</string>
+
+    <!-- Settings -->
+    <string name="settings_title">সেটিংস</string>
+    <string name="setting_resolution">রেজোলিউশন</string>
+    <string name="setting_fps">ফ্রেম প্রতি সেকেন্ড</string>
+    <string name="setting_quality">গুণমান</string>
+    <string name="setting_orientation">অরিয়েন্টেশন</string>
+    <string name="setting_mic">মাইক্রোফোন রেকর্ড করুন</string>
+    <string name="setting_app_audio">অ্যাপের শব্দ রেকর্ড করুন</string>
+    <string name="setting_app_audio_hint">এর জন্য Android মাইক্রোফোনের অনুমতি চায়, কিন্তু মাইক্রোফোন ব্যবহার হয় না।</string>
+    <string name="setting_countdown">3 সেকেন্ডের কাউন্টডাউন</string>
+
+    <string-array name="resolution_labels">
+        <item>আসল</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>কম</item>
+        <item>মাঝারি</item>
+        <item>উচ্চ</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>স্বয়ংক্রিয়</item>
+        <item>পোর্ট্রেট</item>
+        <item>ল্যান্ডস্কেপ</item>
+    </string-array>
+
+    <!-- Notifications -->
+    <string name="channel_recording">রেকর্ডিং চলছে</string>
+    <string name="channel_saved">সেভ করা রেকর্ডিং</string>
+    <string name="notif_countdown_title">%1$d-এ শুরু হবে…</string>
+    <string name="notif_recording_title">স্ক্রিন রেকর্ড হচ্ছে</string>
+    <string name="notif_paused_title">রেকর্ডিং বিরতিতে</string>
+    <string name="notif_saved_title">রেকর্ডিং সেভ হয়েছে</string>
+    <string name="notif_saved_text">দেখতে ট্যাপ করুন</string>
+    <string name="notif_nothing_captured">রেকর্ডিংটি খুব ছোট ছিল</string>
+
+    <!-- Messages -->
+    <string name="toast_no_consent">রেকর্ড করতে স্ক্রিন ক্যাপচারের অনুমতি লাগে</string>
+    <string name="toast_mic_denied">মাইক্রোফোনের অনুমতি নেই: অডিও ছাড়া রেকর্ড হবে</string>
+    <string name="toast_error">রেকর্ডিং শুরু করা যায়নি</string>
+    <string name="toast_no_player">ভিডিও চালানোর কোনো অ্যাপ পাওয়া যায়নি</string>
+
+    <!-- History and player -->
+    <string name="recents_title">সাম্প্রতিক</string>
+    <string name="btn_all">সব দেখুন</string>
+    <string name="history_title">রেকর্ডিং</string>
+    <string name="btn_share">শেয়ার</string>
+    <string name="btn_open_with">দিয়ে খুলুন…</string>
+    <string name="btn_delete">মুছুন</string>
+    <string name="cd_back">ফিরে যান</string>
+    <string name="share_chooser">রেকর্ডিং শেয়ার করুন</string>
+    <string name="delete_title">এই রেকর্ডিং মুছবেন?</string>
+    <string name="delete_message">এটি আর ফেরানো যাবে না।</string>
+    <string name="toast_deleted">রেকর্ডিং মুছে ফেলা হয়েছে</string>
+    <string name="toast_delete_failed">মুছে ফেলা যায়নি</string>
+    <string name="toast_play_failed">এই ভিডিও চালানো যায় না</string>
+
+    <!-- Comprimir -->
+    <string name="btn_compress">সংকুচিত করুন</string>
+    <string name="compress_title">এই ভিডিও সংকুচিত করবেন?</string>
+    <string name="compress_message">আসল: %1$s।\n\nপাশে একটি ছোট কপি সেভ হয়। আসলটি মুছে ফেলা হয় না: না লাগলে নিজে মুছে ফেলুন।\n\nকাজ চলাকালীন অ্যাপ খোলা রাখুন; কয়েক মিনিট লাগতে পারে।</string>
+    <string name="compress_progress">সংকুচিত হচ্ছে… %1$d%%</string>
+    <string name="compress_done_title">কপি সেভ হয়েছে</string>
+    <string name="compress_done_message">%1$s → %2$s। আসলটি এখনও তালিকায় আছে: না লাগলে নিজে মুছে ফেলুন।</string>
+    <string name="compress_no_gain">এই ভিডিও আগে থেকেই ছোট, তাই আরও ছোট কপি করা যায় না। কিছু সেভ হয়নি।</string>
+    <string name="compress_failed">এই ভিডিও সংকুচিত করা যায়নি</string>
+    <string name="compress_cancelled">সংকোচন বাতিল হয়েছে</string>
+
+    <!-- Folder and summary -->
+    <string name="setting_storage">সেভ করুন</string>
+    <string-array name="storage_labels">
+        <item>মুভি</item>
+        <item>ডাউনলোড</item>
+    </string-array>
+    <string name="saved_in_movies">মুভি/CaptureCam-এ সেভ হয়</string>
+    <string name="saved_in_downloads">ডাউনলোড/CaptureCam-এ সেভ হয়</string>
+    <string name="summary_resolution">%1$d × %2$d-এ রেকর্ড হবে</string>
+
+    <!-- On-screen countdown permission -->
+    <string name="overlay_title">স্ক্রিনে কাউন্টডাউন</string>
+    <string name="overlay_message">যে অ্যাপ রেকর্ড করতে যাচ্ছেন তার উপর 3, 2, 1 দেখাতে CaptureCam-এর “অন্যান্য অ্যাপের উপরে প্রদর্শন” অনুমতি লাগে। এটি না থাকলে কাউন্টডাউন শুধু বিজ্ঞপ্তিতে দেখা যায়।</string>
+    <string name="overlay_grant">অনুমতি দিন</string>
+    <string name="overlay_skip">এখন নয়</string>
+
+    <!-- About -->
+    <string name="about_open">CaptureCam সম্পর্কে</string>
+    <string name="about_title">সম্পর্কে</string>
+    <string name="about_version">সংস্করণ %1$s</string>
+    <string name="about_description">বিজ্ঞাপন ছাড়া, অ্যাকাউন্ট ছাড়া এবং ইন্টারনেট ছাড়া একটি বিনামূল্যের স্ক্রিন রেকর্ডার। আপনার রেকর্ডিং কখনও ফোনের বাইরে যায় না।</string>
+    <string name="about_source">সোর্স কোড</string>
+    <string name="about_more">লেখকের আরও অ্যাপ</string>
+    <string name="about_privacy">গোপনীয়তা নীতি</string>
+    <string name="about_x">X-এ ফলো করুন</string>
+    <string name="toast_no_browser">কোনো অ্যাপ এই লিঙ্ক খুলতে পারে না</string>
+
+    <string name="tile_label">স্ক্রিন রেকর্ড</string>
+    <string name="tile_stop">থামুন</string>
+</resources>

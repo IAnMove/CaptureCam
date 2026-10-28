@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main screen -->
+    <string name="tagline">اپنی اسکرین ریکارڈ کریں۔ بغیر اشتہار۔</string>
+    <string name="state_idle">ریکارڈ کے لیے تیار</string>
+    <string name="state_countdown">شروع ہو رہا ہے…</string>
+    <string name="state_recording">ریکارڈ ہو رہا ہے</string>
+    <string name="state_paused">موقوف</string>
+    <string name="btn_record">ریکارڈ</string>
+    <string name="btn_stop">روکیں</string>
+    <string name="btn_pause">توقف</string>
+    <string name="btn_resume">جاری رکھیں</string>
+    <string name="btn_cancel">منسوخ</string>
+    <string name="no_recordings">ابھی کوئی ریکارڈنگ نہیں</string>
+
+    <!-- Settings -->
+    <string name="settings_title">ترتیبات</string>
+    <string name="setting_resolution">ریزولیوشن</string>
+    <string name="setting_fps">فریم فی سیکنڈ</string>
+    <string name="setting_quality">معیار</string>
+    <string name="setting_orientation">اورینٹیشن</string>
+    <string name="setting_mic">مائیکروفون ریکارڈ کریں</string>
+    <string name="setting_app_audio">ایپس کی آواز ریکارڈ کریں</string>
+    <string name="setting_app_audio_hint">Android اس کے لیے مائیکروفون کی اجازت مانگتا ہے، لیکن مائیکروفون استعمال نہیں ہوتا۔</string>
+    <string name="setting_countdown">3 سیکنڈ کی الٹی گنتی</string>
+
+    <string-array name="resolution_labels">
+        <item>اصل</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="fps_labels">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>کم</item>
+        <item>درمیانہ</item>
+        <item>اعلیٰ</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>خودکار</item>
+        <item>پورٹریٹ</item>
+        <item>لینڈ اسکیپ</item>
+    </string-array>
+
+    <!-- Notifications -->
+    <string name="channel_recording">ریکارڈنگ جاری ہے</string>
+    <string name="channel_saved">محفوظ ریکارڈنگز</string>
+    <string name="notif_countdown_title">%1$d میں شروع…</string>
+    <string name="notif_recording_title">اسکرین ریکارڈ ہو رہی ہے</string>
+    <string name="notif_paused_title">ریکارڈنگ موقوف</string>
+    <string name="notif_saved_title">ریکارڈنگ محفوظ ہو گئی</string>
+    <string name="notif_saved_text">دیکھنے کے لیے ٹیپ کریں</string>
+    <string name="notif_nothing_captured">ریکارڈنگ بہت مختصر تھی</string>
+
+    <!-- Messages -->
+    <string name="toast_no_consent">ریکارڈ کے لیے اسکرین کیپچر کی اجازت درکار ہے</string>
+    <string name="toast_mic_denied">مائیکروفون کی اجازت نہیں: ریکارڈنگ بغیر آواز ہوگی</string>
+    <string name="toast_error">ریکارڈنگ شروع نہیں ہو سکی</string>
+    <string name="toast_no_player">ویڈیو چلانے کے لیے کوئی ایپ نہیں ملی</string>
+
+    <!-- History and player -->
+    <string name="recents_title">حالیہ</string>
+    <string name="btn_all">سب دیکھیں</string>
+    <string name="history_title">ریکارڈنگز</string>
+    <string name="btn_share">شیئر</string>
+    <string name="btn_open_with">اس کے ساتھ کھولیں…</string>
+    <string name="btn_delete">حذف کریں</string>
+    <string name="cd_back">واپس</string>
+    <string name="share_chooser">ریکارڈنگ شیئر کریں</string>
+    <string name="delete_title">یہ ریکارڈنگ حذف کریں؟</string>
+    <string name="delete_message">یہ عمل واپس نہیں ہو سکتا۔</string>
+    <string name="toast_deleted">ریکارڈنگ حذف ہو گئی</string>
+    <string name="toast_delete_failed">حذف نہیں ہو سکی</string>
+    <string name="toast_play_failed">یہ ویڈیو نہیں چل سکتی</string>
+
+    <!-- Comprimir -->
+    <string name="btn_compress">سکیڑیں</string>
+    <string name="compress_title">یہ ویڈیو سکیڑیں؟</string>
+    <string name="compress_message">اصل: %1$s۔\n\nاس کے ساتھ ایک چھوٹی نقل محفوظ ہوتی ہے۔ اصل حذف نہیں ہوتی: ضرورت نہ ہو تو خود حذف کریں۔\n\nکام کے دوران ایپ کھلی رکھیں؛ چند منٹ لگ سکتے ہیں۔</string>
+    <string name="compress_progress">سکیڑا جا رہا ہے… %1$d%%</string>
+    <string name="compress_done_title">نقل محفوظ ہو گئی</string>
+    <string name="compress_done_message">%1$s → %2$s۔ اصل اب بھی فہرست میں ہے: ضرورت نہ ہو تو خود حذف کریں۔</string>
+    <string name="compress_no_gain">یہ ویڈیو پہلے ہی چھوٹی ہے، اس لیے چھوٹی نقل ممکن نہیں۔ کچھ محفوظ نہیں ہوا۔</string>
+    <string name="compress_failed">یہ ویڈیو سکیڑی نہیں جا سکی</string>
+    <string name="compress_cancelled">سکیڑنا منسوخ ہو گیا</string>
+
+    <!-- Folder and summary -->
+    <string name="setting_storage">یہاں محفوظ کریں</string>
+    <string-array name="storage_labels">
+        <item>موویز</item>
+        <item>ڈاؤن لوڈ</item>
+    </string-array>
+    <string name="saved_in_movies">موویز/CaptureCam میں محفوظ ہوتی ہے</string>
+    <string name="saved_in_downloads">ڈاؤن لوڈ/CaptureCam میں محفوظ ہوتی ہے</string>
+    <string name="summary_resolution">⁦%1$d × %2$d⁩ پر ریکارڈ ہوگی</string>
+
+    <!-- On-screen countdown permission -->
+    <string name="overlay_title">اسکرین پر الٹی گنتی</string>
+    <string name="overlay_message">جس ایپ کو آپ ریکارڈ کرنے والے ہیں اس کے اوپر 3، 2، 1 دکھانے کے لیے CaptureCam کو “دیگر ایپس کے اوپر دکھائیں” کی اجازت چاہیے۔ اس کے بغیر الٹی گنتی صرف اطلاع میں دکھے گی۔</string>
+    <string name="overlay_grant">اجازت دیں</string>
+    <string name="overlay_skip">ابھی نہیں</string>
+
+    <!-- About -->
+    <string name="about_open">CaptureCam کے متعلق</string>
+    <string name="about_title">متعلق</string>
+    <string name="about_version">ورژن %1$s</string>
+    <string name="about_description">بغیر اشتہار، بغیر اکاؤنٹ اور بغیر انٹرنیٹ ایک مفت اسکرین ریکارڈر۔ آپ کی ریکارڈنگز کبھی فون سے باہر نہیں جاتیں۔</string>
+    <string name="about_source">سورس کوڈ</string>
+    <string name="about_more">مصنف کی مزید ایپس</string>
+    <string name="about_privacy">رازداری کی پالیسی</string>
+    <string name="about_x">X پر فالو کریں</string>
+    <string name="toast_no_browser">کوئی ایپ یہ لنک نہیں کھول سکتی</string>
+
+    <string name="tile_label">اسکرین ریکارڈ</string>
+    <string name="tile_stop">روکیں</string>
+</resources>
