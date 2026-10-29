@@ -1,1 +1,1 @@
-Nuevo: comprime una grabación en una copia más pequeña (el original se conserva). Mejoras en el grabador, el historial y el reproductor, y traducciones actualizadas. «Acerca de» enlaza a todas las apps del autor.
+Nuevo: comprime una grabación en una copia más pequeña (el original se conserva). Cuatro idiomas nuevos en la interfaz: bengalí, urdu, malayo y portugués de Portugal. Mejoras en el grabador, el historial y el reproductor, y traducciones actualizadas. «Acerca de» enlaza a todas las apps del autor.

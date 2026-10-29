@@ -1,1 +1,1 @@
-First release: ad-free, watermark-free screen recorder with app audio and optional microphone, pause/resume, Quick Settings tile, countdown, gallery and 24 languages.
+First release: ad-free, watermark-free screen recorder with app audio and optional microphone, pause/resume, Quick Settings tile, countdown, gallery and 20 languages.
